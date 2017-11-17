@@ -64,6 +64,8 @@ extension ViewController: Controller {
     
     private func setupNavigation() {
         if locationData != nil {
+            WayFindingSchipholService.parseRout()
+
             steps.append(contentsOf: locationData.steps)
             currentLegs.append(contentsOf: locationData.legs)
             let coordinates = currentLegs.flatMap { $0 }

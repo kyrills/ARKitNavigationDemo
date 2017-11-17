@@ -1,19 +1,23 @@
 //
-//  TEstCoordinatorViewController.swift
+//  MainNavigationController.swift
 //  ARKitNavigationDemo
 //
-//  Created by Ben Smith on 17/11/2017.
+//  Created by Ivo Nederlof on 17-11-17.
 //  Copyright © 2017 Christopher Webb-Orenstein. All rights reserved.
 //
 
 import UIKit
 
-class TEstCoordinatorViewController: UIViewController {
+class MainNavigationController: UINavigationController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        self.navigationBar.setBackgroundImage(UIImage(), for: .default)
+        self.navigationBar.shadowImage = UIImage()
+        self.navigationBar.backgroundColor = .clear
+        self.navigationBar.tintColor = .white
+        self.navigationBar.isTranslucent = true
     }
 
     override func didReceiveMemoryWarning() {

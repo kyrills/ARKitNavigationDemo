@@ -29,11 +29,12 @@ final class StartViewController: UIViewController, Controller {
             setupNavigation()
         }
     }
+    
+    var schipholCoords = CLLocationCoordinate2D.init(latitude: 52.3101057, longitude: 4.7624165)
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-//        SchipholWhenToBeService.checkWhentoBeAtSChiphol(flightNumber: )
 
-        WayFindingSchipholService.parseRout()
         if ARConfiguration.isSupported {
             locationService.delegate = self
             guard let locationManager = locationService.locationManager else { return }
@@ -119,7 +120,9 @@ final class StartViewController: UIViewController, Controller {
             
             let okayAction = UIAlertAction(title: "Go!", style: .default, handler: { action in
                 let destination = CLLocation(latitude: self.destinationLocation.latitude, longitude: self.destinationLocation.longitude)
-                self.delegate?.startNavigation(with: self.annotations, for: destination, and: self.currentTripLegs, and: self.steps)
+                self.delegate?.startNavigation(with: self.annotations,
+                                               for: destination,
+                                               and: self.currentTripLegs, and: self.steps)
             })
             
             alertController.addAction(cancelAction)
@@ -202,7 +205,7 @@ extension StartViewController: LocationServiceDelegate, MessagePresenting, Mapab
     
     // Once location is tracking - zoom in and center map
     func trackingLocation(for currentLocation: CLLocation) {
-        startingLocation = currentLocation
+        startingLocation = CLLocation.init(latitude: schipholCoords.latitude, longitude: schipholCoords.longitude) //currentLocation
         centerMapInInitialCoordinates()
     }
     

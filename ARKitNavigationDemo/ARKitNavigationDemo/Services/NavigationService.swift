@@ -47,7 +47,14 @@ struct NavigationService {
             let lat2 = endArr[0] as! Double
             let lng2 = endArr[1] as! Double
             let alt2 = endArr[2] as! Double
-            let segment = LineSegment(lat1: lat1, long1: lng1, alt1: alt1, lat2: lat2, long2: lng2, alt2: alt2)
+
+            let segment = LineSegment(lat1: lat1,
+                                      long1: lng1,
+                                      alt1: alt1,
+                                      lat2: lat2,
+                                      long2: lng2,
+                                      alt2: alt2)
+
             segments.append(segment)
             startArr = endArr
         }

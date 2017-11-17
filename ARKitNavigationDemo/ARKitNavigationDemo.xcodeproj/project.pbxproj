@@ -29,6 +29,7 @@
 		902B9F601FBF7D1B00E5E4C1 /* WayFindingSchipholService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902B9F5F1FBF7D1B00E5E4C1 /* WayFindingSchipholService.swift */; };
 		902B9F621FBF839400E5E4C1 /* TestCoordinatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902B9F611FBF839400E5E4C1 /* TestCoordinatorViewController.swift */; };
 		902B9F641FBF83EF00E5E4C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 902B9F631FBF83EF00E5E4C1 /* Main.storyboard */; };
+		950361441FBF90990005EDD2 /* AnimationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950361431FBF90990005EDD2 /* AnimationExtension.swift */; };
 		A74AF0931F6CA2480000CD5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74AF0921F6CA2480000CD5F /* AppDelegate.swift */; };
 		A74AF0951F6CA2490000CD5F /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = A74AF0941F6CA2490000CD5F /* art.scnassets */; };
 		A74AF0971F6CA2490000CD5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74AF0961F6CA2490000CD5F /* ViewController.swift */; };
@@ -119,6 +120,7 @@
 		902B9F5F1FBF7D1B00E5E4C1 /* WayFindingSchipholService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WayFindingSchipholService.swift; sourceTree = "<group>"; };
 		902B9F611FBF839400E5E4C1 /* TestCoordinatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCoordinatorViewController.swift; sourceTree = "<group>"; };
 		902B9F631FBF83EF00E5E4C1 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		950361431FBF90990005EDD2 /* AnimationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationExtension.swift; sourceTree = "<group>"; };
 		9B958384835A9EDD217B56BD /* Pods_ARKitNavigationDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARKitNavigationDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A74AF08F1F6CA2480000CD5F /* ARKitNavigationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKitNavigationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A74AF0921F6CA2480000CD5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -314,6 +316,7 @@
 				A74AF0E61F6CA4B40000CD5F /* UIStoryboard+Extension.swift */,
 				A79518D11F7A1FB10030E21A /* StoryboardIdentifiableError.swift */,
 				A74AF0E41F6CA49E0000CD5F /* Double+Extension.swift */,
+				950361431FBF90990005EDD2 /* AnimationExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -765,6 +768,7 @@
 				A79518C41F7A1E640030E21A /* Controller.swift in Sources */,
 				A74AF0E11F6CA45E0000CD5F /* MKRouteStep+Extension.swift in Sources */,
 				A7B30E7B1F79D9C600BDA025 /* StartViewControllerDelegate.swift in Sources */,
+				950361441FBF90990005EDD2 /* AnimationExtension.swift in Sources */,
 				A79518CE1F7A1F2C0030E21A /* NavigationViewControllerDelegate.swift in Sources */,
 				A74AF0CD1F6CA3710000CD5F /* AppCoordinator.swift in Sources */,
 				A79518D01F7A1F6E0030E21A /* LocationServiceDelegate.swift in Sources */,

@@ -24,10 +24,13 @@ class WayFindingSchipholService{
                                 let features = routes["features"] as? NSArray,
                                 let feature = features[0] as? NSDictionary,
                                 let geometry = feature["geometry"] as? NSDictionary,
-                                let paths = geometry["paths"] as? NSArray{
-                                    print(paths)
+                                let paths = geometry["paths"] as? NSArray,
+                                let pathsInner = paths[0] as? NSArray {
+                                    NavigationService.getDirections(pointsArrays: pathsInner as! Array<Array<Any>>, completion: { (lineSegments) in
+                                        print(lineSegments)
+
+                                    })
                                 }
-                                break
 
                             case .failure(let error):
                                 print("error \(error)")

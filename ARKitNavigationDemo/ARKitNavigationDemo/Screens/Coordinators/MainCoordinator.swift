@@ -65,7 +65,9 @@ extension MainCoordinator: ControllerCoordinatorDelegate {
             startCoordinator.type = .start
             startCoordinator.start()
         case .test:
-           
+            let testStoryBoard: UIStoryboard = UIStoryboard(name: "test", bundle: nil)
+            let testVC = testStoryBoard.instantiateViewController(withIdentifier: "testID") as! TestCoordinatorViewController
+
             break;
         }
     }

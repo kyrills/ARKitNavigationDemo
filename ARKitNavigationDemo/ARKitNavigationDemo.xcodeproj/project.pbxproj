@@ -10,8 +10,6 @@
 		056017671FBF93C500F53D93 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056017661FBF93C500F53D93 /* Color.swift */; };
 		056017691FBF97E400F53D93 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056017681FBF97E400F53D93 /* MainNavigationController.swift */; };
 		13E985191F75E400234F54E9 /* Pods_ARKitNavigationDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE8CE1E4967831072D65168 /* Pods_ARKitNavigationDemoUITests.framework */; };
-		351C85491FBFAC1800C9A24A /* routeANWB.json in Resources */ = {isa = PBXBuildFile; fileRef = 351C85481FBFAC1800C9A24A /* routeANWB.json */; };
-		354E360E1FBF83CB00C8F681 /* LineSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354E360D1FBF83CB00C8F681 /* LineSegment.swift */; };
 		902B9F3B1FBF45D100E5E4C1 /* SchipholWhenToBeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902B9F3A1FBF45D100E5E4C1 /* SchipholWhenToBeService.swift */; };
 		902B9F3D1FBF65FE00E5E4C1 /* routeSchiphol.json in Resources */ = {isa = PBXBuildFile; fileRef = 902B9F3C1FBF65FE00E5E4C1 /* routeSchiphol.json */; };
 		902B9F521FBF6F9900E5E4C1 /* Envelope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902B9F471FBF6F9900E5E4C1 /* Envelope.swift */; };
@@ -230,7 +228,6 @@
 			isa = PBXGroup;
 			children = (
 				902B9F3C1FBF65FE00E5E4C1 /* routeSchiphol.json */,
-				351C85481FBFAC1800C9A24A /* routeANWB.json */,
 				902B9F4A1FBF6F9900E5E4C1 /* Attributes.swift */,
 				902B9F491FBF6F9900E5E4C1 /* Directions.swift */,
 				902B9F471FBF6F9900E5E4C1 /* Envelope.swift */,
@@ -347,7 +344,6 @@
 				A74AF0D61F6CA3D50000CD5F /* POIAnnotation.swift */,
 				A79518C91F7A1EE60030E21A /* LocationTranslation.swift */,
 				A79518CB1F7A1F130030E21A /* LocationData.swift */,
-				354E360D1FBF83CB00C8F681 /* LineSegment.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -549,7 +545,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				351C85491FBFAC1800C9A24A /* routeANWB.json in Resources */,
 				A74AF0951F6CA2490000CD5F /* art.scnassets in Resources */,
 				A74AF09F1F6CA2490000CD5F /* LaunchScreen.storyboard in Resources */,
 				A74AF0F01F6CAA020000CD5F /* Start.storyboard in Resources */,
@@ -770,7 +765,6 @@
 				A79518D01F7A1F6E0030E21A /* LocationServiceDelegate.swift in Sources */,
 				A74AF0DB1F6CA3FA0000CD5F /* MatrixHelper.swift in Sources */,
 				A74AF0CF1F6CA3850000CD5F /* StoryboardIdentifiable.swift in Sources */,
-				354E360E1FBF83CB00C8F681 /* LineSegment.swift in Sources */,
 				A79518D21F7A1FB10030E21A /* StoryboardIdentifiableError.swift in Sources */,
 				902B9F531FBF6F9900E5E4C1 /* Features.swift in Sources */,
 				A74AF0C91F6CA34A0000CD5F /* Mapable.swift in Sources */,
@@ -968,7 +962,7 @@
 				DEVELOPMENT_TEAM = 5RK7DRLJF4;
 				INFOPLIST_FILE = ARKitNavigationDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = lkjhsdljfhsadkljfhsadkjfhsakjfh;
+				PRODUCT_BUNDLE_IDENTIFIER = com.froleeyo.ARKitNavigationDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -984,7 +978,7 @@
 				DEVELOPMENT_TEAM = 5RK7DRLJF4;
 				INFOPLIST_FILE = ARKitNavigationDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = lkjhsdljfhsadkljfhsadkjfhsakjfh;
+				PRODUCT_BUNDLE_IDENTIFIER = com.froleeyo.ARKitNavigationDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

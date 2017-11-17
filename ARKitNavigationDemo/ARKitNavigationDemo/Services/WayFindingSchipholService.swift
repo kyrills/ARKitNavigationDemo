@@ -10,7 +10,7 @@ import Foundation
 import Alamofire
 class WayFindingSchipholService{
     
-    public static func parseRout() {
+    public static func parseRout(completion: @escaping ([LineSegment]) -> Void) {
         let routeSchipolLocal = Bundle.main.url(forResource: "routeSchiphol", withExtension: "json")
 
         Alamofire.request(routeSchipolLocal!,
@@ -28,7 +28,7 @@ class WayFindingSchipholService{
                                 let pathsInner = paths[0] as? NSArray {
                                     NavigationService.getDirections(pointsArrays: pathsInner as! Array<Array<Any>>, completion: { (lineSegments) in
                                         print(lineSegments)
-
+                                        completion(lineSegments)
                                     })
                                 }
 

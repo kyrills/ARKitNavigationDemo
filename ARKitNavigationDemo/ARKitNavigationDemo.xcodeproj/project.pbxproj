@@ -28,7 +28,8 @@
 		902B9F5E1FBF7A9900E5E4C1 /* routeSchipolString.txt in Resources */ = {isa = PBXBuildFile; fileRef = 902B9F5D1FBF7A9900E5E4C1 /* routeSchipolString.txt */; };
 		902B9F601FBF7D1B00E5E4C1 /* WayFindingSchipholService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902B9F5F1FBF7D1B00E5E4C1 /* WayFindingSchipholService.swift */; };
 		902B9F621FBF839400E5E4C1 /* TestCoordinatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902B9F611FBF839400E5E4C1 /* TestCoordinatorViewController.swift */; };
-		902B9F641FBF83EF00E5E4C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 902B9F631FBF83EF00E5E4C1 /* Main.storyboard */; };
+		902B9F641FBF83EF00E5E4C1 /* MainOLD.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 902B9F631FBF83EF00E5E4C1 /* MainOLD.storyboard */; };
+		902B9F6A1FC05C3700E5E4C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 902B9F691FC05C3700E5E4C1 /* Main.storyboard */; };
 		A74AF0931F6CA2480000CD5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74AF0921F6CA2480000CD5F /* AppDelegate.swift */; };
 		A74AF0951F6CA2490000CD5F /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = A74AF0941F6CA2490000CD5F /* art.scnassets */; };
 		A74AF0971F6CA2490000CD5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74AF0961F6CA2490000CD5F /* ViewController.swift */; };
@@ -118,7 +119,8 @@
 		902B9F5D1FBF7A9900E5E4C1 /* routeSchipolString.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = routeSchipolString.txt; sourceTree = "<group>"; };
 		902B9F5F1FBF7D1B00E5E4C1 /* WayFindingSchipholService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WayFindingSchipholService.swift; sourceTree = "<group>"; };
 		902B9F611FBF839400E5E4C1 /* TestCoordinatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCoordinatorViewController.swift; sourceTree = "<group>"; };
-		902B9F631FBF83EF00E5E4C1 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		902B9F631FBF83EF00E5E4C1 /* MainOLD.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainOLD.storyboard; sourceTree = "<group>"; };
+		902B9F691FC05C3700E5E4C1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		9B958384835A9EDD217B56BD /* Pods_ARKitNavigationDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARKitNavigationDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A74AF08F1F6CA2480000CD5F /* ARKitNavigationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKitNavigationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A74AF0921F6CA2480000CD5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -381,7 +383,8 @@
 			children = (
 				A74AF0981F6CA2490000CD5F /* Navigation.storyboard */,
 				A74AF0EF1F6CAA020000CD5F /* Start.storyboard */,
-				902B9F631FBF83EF00E5E4C1 /* Main.storyboard */,
+				902B9F631FBF83EF00E5E4C1 /* MainOLD.storyboard */,
+				902B9F691FC05C3700E5E4C1 /* Main.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -550,13 +553,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				351C85491FBFAC1800C9A24A /* routeANWB.json in Resources */,
+				902B9F6A1FC05C3700E5E4C1 /* Main.storyboard in Resources */,
 				A74AF0951F6CA2490000CD5F /* art.scnassets in Resources */,
 				A74AF09F1F6CA2490000CD5F /* LaunchScreen.storyboard in Resources */,
 				A74AF0F01F6CAA020000CD5F /* Start.storyboard in Resources */,
 				902B9F3D1FBF65FE00E5E4C1 /* routeSchiphol.json in Resources */,
 				902B9F5E1FBF7A9900E5E4C1 /* routeSchipolString.txt in Resources */,
 				A74AF09C1F6CA2490000CD5F /* Assets.xcassets in Resources */,
-				902B9F641FBF83EF00E5E4C1 /* Main.storyboard in Resources */,
+				902B9F641FBF83EF00E5E4C1 /* MainOLD.storyboard in Resources */,
 				A74AF09A1F6CA2490000CD5F /* Navigation.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -966,7 +970,6 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CWK29L7ZPT;
-				DEVELOPMENT_TEAM = R27PQ6L3EN;
 				INFOPLIST_FILE = ARKitNavigationDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lkjhsdljfhsadkljfhsadkjfhsakjfh;
@@ -983,7 +986,6 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CWK29L7ZPT;
-				DEVELOPMENT_TEAM = R27PQ6L3EN;
 				INFOPLIST_FILE = ARKitNavigationDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lkjhsdljfhsadkljfhsadkjfhsakjfh;

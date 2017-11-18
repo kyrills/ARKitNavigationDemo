@@ -16,6 +16,7 @@ class TestCoordinatorViewController: UIViewController {
     @IBOutlet var addItemView : UIView!
     @IBOutlet weak var visualEffectView: UIVisualEffectView!
     
+    @IBOutlet var contentContainer: UIStackView!
     var progressView: UIProgressView?
     var progressLabel: UILabel?
     var effect: UIVisualEffect!
@@ -29,8 +30,6 @@ class TestCoordinatorViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setGradient()
-
- 
     }
     
     
@@ -47,11 +46,14 @@ class TestCoordinatorViewController: UIViewController {
         animateBlurout()
     }
     
+    @IBAction func didPressChangeFlight(_ sender: Any) {
+        animeteBlurIn()
+    }
     
     func animeteBlurIn() {
         self.view.addSubview(addItemView)
         addItemView.center = self.view.center
-        
+    
         addItemView.transform = CGAffineTransform.init(scaleX: 1.3, y: 1.3)
         addItemView.alpha = 0
         

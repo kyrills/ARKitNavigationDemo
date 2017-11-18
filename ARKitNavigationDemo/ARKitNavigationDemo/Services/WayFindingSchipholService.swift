@@ -11,7 +11,7 @@ import Alamofire
 class WayFindingSchipholService{
     
     public static func parseRout(completion: @escaping ([LineSegment]) -> Void) {
-        let routeSchipolLocal = Bundle.main.url(forResource: "routeANWB", withExtension: "json")
+        let routeSchipolLocal = Bundle.main.url(forResource: "routeSchiphol", withExtension: "json")
 
         Alamofire.request(routeSchipolLocal!,
                           method: .get,

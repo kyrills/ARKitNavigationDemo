@@ -8,8 +8,7 @@
 
 import UIKit
 
-class TEstCoordinatorViewController: UIViewController {
-
+class TestCoordinatorViewController: UIViewController {
     
     @IBOutlet weak var flightNumberoutlet: UITextField!
     @IBOutlet weak var flightDateoutlet: UITextField!
@@ -24,7 +23,6 @@ class TEstCoordinatorViewController: UIViewController {
         origin: CGPoint(x: -25, y: -100),
         size: UIScreen.main.bounds.size
     )
-    
     
     override func viewDidAppear(_ _animated: Bool) {
         super.viewDidAppear(_animated)
@@ -48,10 +46,20 @@ class TEstCoordinatorViewController: UIViewController {
         
 
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    
+    override func viewDidAppear(_ _animated: Bool) {
+        super.viewDidAppear(_animated)
+        effect = visualEffectView.effect
+        visualEffectView.effect = nil
+        
+        addItemView.layer.cornerRadius = 5
+        self.animeteBlurIn()
+        
+    }
+    
+    @IBAction func didPressFlight(_ sender: Any) {
+        animateBlurout()
     }
     
     func animeteBlurIn() {
@@ -78,5 +86,17 @@ class TEstCoordinatorViewController: UIViewController {
         }) { (succes:Bool) in
             self.addItemView.removeFromSuperview()
         }
+
+}
+
+
+// MARK: - View setup
+extension TestCoordinatorViewController {
+    
+    func setGradient() {
+        let gradientLayer = CAGradientLayer()
+        gradientLayer.frame = self.view.bounds
+        gradientLayer.colors = [Color.blue3.cgColor, Color.blue2.cgColor, Color.blue1.cgColor]
+        self.view.layer.insertSublayer(gradientLayer, at: 0)
     }
 }

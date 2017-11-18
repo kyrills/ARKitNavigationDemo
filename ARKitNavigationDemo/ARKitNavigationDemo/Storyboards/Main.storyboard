@@ -133,7 +133,11 @@
                         <viewLayoutGuide key="safeArea" id="vFH-m2-fIW"/>
                     </view>
                     <navigationItem key="navigationItem" id="l8W-Pl-tin">
-                        <barButtonItem key="leftBarButtonItem" title="flight" id="OaF-JV-RW5"/>
+                        <barButtonItem key="leftBarButtonItem" title="flight" id="OaF-JV-RW5">
+                            <connections>
+                                <action selector="didPressSetFlight:" destination="TaD-a2-Amn" id="3vB-M1-buV"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="00:30" id="ZKD-UU-FvP"/>
                     </navigationItem>
                 </viewController>

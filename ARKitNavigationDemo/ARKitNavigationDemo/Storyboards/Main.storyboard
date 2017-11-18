@@ -107,7 +107,7 @@
                                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="KL0601" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R7u-je-Yl2">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R7u-je-Yl2">
                                                                 <rect key="frame" x="0.0" y="30" width="230" height="50"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="50" id="PBX-c5-Vej"/>
@@ -129,10 +129,6 @@
                                                     <constraint firstItem="F5y-tA-2Cd" firstAttribute="leading" secondItem="OTH-zw-Xh4" secondAttribute="leading" constant="5" id="xG2-6D-4aD"/>
                                                 </constraints>
                                             </view>
-                                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Zv3-55-RAh">
-                                                <rect key="frame" x="163" y="151" width="42" height="20.5"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </stackView>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -203,7 +199,9 @@
                         <outlet property="addItemView" destination="C9i-Yi-gqj" id="qPO-RX-oi0"/>
                         <outlet property="contentContainer" destination="LXd-5u-597" id="1tJ-u3-qoF"/>
                         <outlet property="flightDateoutlet" destination="ltk-h3-LWS" id="5gd-dx-7c3"/>
+                        <outlet property="flightNumberLabel" destination="R7u-je-Yl2" id="geu-dj-Yix"/>
                         <outlet property="flightNumberoutlet" destination="47b-vV-Ivt" id="UOS-ds-N9v"/>
+                        <outlet property="timeLabel" destination="79h-Ql-ULs" id="nI7-30-u2g"/>
                         <outlet property="visualEffectView" destination="BZO-2F-WQh" id="Bvx-e9-ktm"/>
                     </connections>
                 </viewController>
@@ -218,7 +216,7 @@
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MEv-ui-s4B">
                                     <rect key="frame" x="0.0" y="0.0" width="304" height="80"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vlucht" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sbe-2q-aq8">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Flight" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sbe-2q-aq8">
                                             <rect key="frame" x="5" y="5" width="294" height="70"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>

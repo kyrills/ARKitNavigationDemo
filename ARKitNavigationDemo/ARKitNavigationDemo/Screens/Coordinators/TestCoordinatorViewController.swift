@@ -15,6 +15,8 @@ class TestCoordinatorViewController: UIViewController {
     @IBOutlet weak var flightDateoutlet: UITextField!
     @IBOutlet var addItemView : UIView!
     @IBOutlet weak var visualEffectView: UIVisualEffectView!
+    @IBOutlet var timeLabel: UILabel!
+    @IBOutlet var flightNumberLabel: UILabel!
     
     @IBOutlet var contentContainer: UIStackView!
     var progressView: UIProgressView?
@@ -30,6 +32,7 @@ class TestCoordinatorViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setGradient()
+        setupTextField()
     }
     
     
@@ -49,10 +52,14 @@ class TestCoordinatorViewController: UIViewController {
     @IBAction func didPressFlight(_ sender: Any) {
         animateBlurout()
         self.visualEffectView.isHidden = true
+//        if let flightNumber = flightNumberoutlet {
+//            self.flightNumberLabel.text = flightNumber.text
+//        }
     }
     
     @IBAction func didPressChangeFlight(_ sender: Any) {
         animeteBlurIn()
+        flightNumberoutlet.becomeFirstResponder()
         self.visualEffectView.isHidden = false
     }
     
@@ -93,4 +100,28 @@ extension TestCoordinatorViewController {
         gradientLayer.colors = [Color.blue3.cgColor, Color.blue2.cgColor, Color.blue1.cgColor]
         self.view.layer.insertSublayer(gradientLayer, at: 0)
     }
+}
+
+
+// MARK: - INPUT
+extension TestCoordinatorViewController: UITextFieldDelegate {
+    
+    func setupTextField() {
+        flightNumberoutlet.delegate = self
+        flightDateoutlet.delegate = self
+     }
+    
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        flightNumberoutlet.resignFirstResponder()
+        flightDateoutlet.resignFirstResponder()
+        return true
+    }
+    
+    func textFieldDidEndEditing(_ textField: UITextField) {
+        if let flightNumber = flightNumberoutlet {
+            flightNumberLabel.text = flightNumber.text
+        }
+    }
+    
 }

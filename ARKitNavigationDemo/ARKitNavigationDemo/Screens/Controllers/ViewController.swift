@@ -195,11 +195,11 @@ extension ViewController: MessagePresenting {
         spotLight.spotInnerAngle = 60
         spotLight.spotOuterAngle = 60
         spotLight.intensity = 1
-        let mat = SCNMaterial()
-        mat.lightingModel = .physicallyBased
-        mat.diffuse.contents = UIImage.init(named: "white.jpg")
-        node.geometry?.firstMaterial?.diffuse.contents = UIImage.init(named: "white.jpg")
-
+//        let mat = SCNMaterial()
+//        mat.lightingModel = .physicallyBased
+//        mat.diffuse.contents = UIImage.init(named: "white.jpg")
+        node.geometry?.firstMaterial?.diffuse.contents = UIImage.init(named: "0_Tierra1.jpg")
+        node.light = spotLight
 
 //        node.parent?.light = spotLight
     }

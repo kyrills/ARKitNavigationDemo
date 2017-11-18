@@ -8,11 +8,17 @@
 
 import UIKit
 
-class MainNavigationController: UIViewController {
+class MainNavigationController: UINavigationController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.navigationBar.setBackgroundImage(UIImage(), for: UIBarMetrics.default)
+        self.navigationBar.shadowImage = UIImage()
+        self.navigationBar.isTranslucent = false
+        self.navigationBar.barTintColor = .clear
+        self.navigationBar.tintColor = .white
+        self.navigationBar.backgroundColor = UIColor.clear
 
     }
 }

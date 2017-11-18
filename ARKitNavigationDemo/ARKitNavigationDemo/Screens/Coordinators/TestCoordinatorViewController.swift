@@ -66,7 +66,6 @@ class TestCoordinatorViewController: UIViewController {
     func animeteBlurIn() {
         self.view.addSubview(addItemView)
         addItemView.center = self.view.center
-    
         addItemView.transform = CGAffineTransform.init(scaleX: 1.3, y: 1.3)
         addItemView.alpha = 0
         
@@ -123,5 +122,10 @@ extension TestCoordinatorViewController: UITextFieldDelegate {
             flightNumberLabel.text = flightNumber.text
         }
     }
+}
+
+
+// MARK: - data
+extension TestCoordinatorViewController {
     
 }

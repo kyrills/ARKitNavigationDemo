@@ -70,6 +70,9 @@
 		A79518D61F7A24270030E21A /* ApplicationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79518D51F7A24270030E21A /* ApplicationService.swift */; };
 		A7B30E7B1F79D9C600BDA025 /* StartViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B30E7A1F79D9C600BDA025 /* StartViewControllerDelegate.swift */; };
 		C08EAB87926265BB2DBE66D1 /* Pods_ARKitNavigationDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B958384835A9EDD217B56BD /* Pods_ARKitNavigationDemo.framework */; };
+		D04FABDB1FBF9A2100131A05 /* GateLocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04FABDA1FBF9A2100131A05 /* GateLocationService.swift */; };
+		D04FABDD1FBF9A8900131A05 /* departingGate.json in Resources */ = {isa = PBXBuildFile; fileRef = D04FABDC1FBF9A8900131A05 /* departingGate.json */; };
+		D04FABDF1FBF9F4500131A05 /* SchipholGates.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04FABDE1FBF9F4500131A05 /* SchipholGates.swift */; };
 		EE3F26E47366B7045EDE3F19 /* Pods_ARKitNavigationDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3EC06084F55525DD2250241 /* Pods_ARKitNavigationDemoTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -164,6 +167,9 @@
 		A79518D51F7A24270030E21A /* ApplicationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationService.swift; sourceTree = "<group>"; };
 		A7B30E7A1F79D9C600BDA025 /* StartViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewControllerDelegate.swift; sourceTree = "<group>"; };
 		B66D556DF96B0AF3B6B0F936 /* Pods-ARKitNavigationDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARKitNavigationDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ARKitNavigationDemo/Pods-ARKitNavigationDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D04FABDA1FBF9A2100131A05 /* GateLocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GateLocationService.swift; sourceTree = "<group>"; };
+		D04FABDC1FBF9A8900131A05 /* departingGate.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = departingGate.json; sourceTree = "<group>"; };
+		D04FABDE1FBF9F4500131A05 /* SchipholGates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchipholGates.swift; sourceTree = "<group>"; };
 		E3EC06084F55525DD2250241 /* Pods_ARKitNavigationDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARKitNavigationDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F98B405B2736FE4D0A5B59C9 /* Pods-ARKitNavigationDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARKitNavigationDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ARKitNavigationDemoTests/Pods-ARKitNavigationDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		FCE8CE1E4967831072D65168 /* Pods_ARKitNavigationDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARKitNavigationDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -224,12 +230,14 @@
 			isa = PBXGroup;
 			children = (
 				902B9F3C1FBF65FE00E5E4C1 /* routeSchiphol.json */,
+				D04FABDC1FBF9A8900131A05 /* departingGate.json */,
 				902B9F4A1FBF6F9900E5E4C1 /* Attributes.swift */,
 				902B9F491FBF6F9900E5E4C1 /* Directions.swift */,
 				902B9F471FBF6F9900E5E4C1 /* Envelope.swift */,
 				902B9F481FBF6F9900E5E4C1 /* Features.swift */,
 				902B9F4B1FBF6F9900E5E4C1 /* FieldAliases.swift */,
 				902B9F501FBF6F9900E5E4C1 /* Geometry.swift */,
+				D04FABDE1FBF9F4500131A05 /* SchipholGates.swift */,
 				902B9F4C1FBF6F9900E5E4C1 /* Json4Swift_Base.swift */,
 				902B9F4D1FBF6F9900E5E4C1 /* Messages.swift */,
 				902B9F4F1FBF6F9900E5E4C1 /* Routes.swift */,
@@ -352,6 +360,7 @@
 				A74AF0C41F6CA2A50000CD5F /* LocationService.swift */,
 				A79518CF1F7A1F6E0030E21A /* LocationServiceDelegate.swift */,
 				A74AF0C21F6CA2650000CD5F /* NavigationService.swift */,
+				D04FABDA1FBF9A2100131A05 /* GateLocationService.swift */,
 				A79518D51F7A24270030E21A /* ApplicationService.swift */,
 				902B9F3A1FBF45D100E5E4C1 /* SchipholWhenToBeService.swift */,
 				902B9F5F1FBF7D1B00E5E4C1 /* WayFindingSchipholService.swift */,
@@ -546,6 +555,7 @@
 				902B9F3D1FBF65FE00E5E4C1 /* routeSchiphol.json in Resources */,
 				902B9F5E1FBF7A9900E5E4C1 /* routeSchipolString.txt in Resources */,
 				A74AF09C1F6CA2490000CD5F /* Assets.xcassets in Resources */,
+				D04FABDD1FBF9A8900131A05 /* departingGate.json in Resources */,
 				902B9F641FBF83EF00E5E4C1 /* Main.storyboard in Resources */,
 				A74AF09A1F6CA2490000CD5F /* Navigation.storyboard in Resources */,
 			);
@@ -758,6 +768,7 @@
 				A79518CE1F7A1F2C0030E21A /* NavigationViewControllerDelegate.swift in Sources */,
 				A74AF0CD1F6CA3710000CD5F /* AppCoordinator.swift in Sources */,
 				A79518D01F7A1F6E0030E21A /* LocationServiceDelegate.swift in Sources */,
+				D04FABDB1FBF9A2100131A05 /* GateLocationService.swift in Sources */,
 				A74AF0DB1F6CA3FA0000CD5F /* MatrixHelper.swift in Sources */,
 				A74AF0CF1F6CA3850000CD5F /* StoryboardIdentifiable.swift in Sources */,
 				354E360E1FBF83CB00C8F681 /* LineSegment.swift in Sources */,
@@ -774,6 +785,7 @@
 				A79518CA1F7A1EE60030E21A /* LocationTranslation.swift in Sources */,
 				902B9F591FBF6F9900E5E4C1 /* SpatialReference.swift in Sources */,
 				902B9F551FBF6F9900E5E4C1 /* Attributes.swift in Sources */,
+				D04FABDF1FBF9F4500131A05 /* SchipholGates.swift in Sources */,
 				902B9F5B1FBF6F9900E5E4C1 /* Geometry.swift in Sources */,
 				902B9F561FBF6F9900E5E4C1 /* FieldAliases.swift in Sources */,
 				A74AF0E71F6CA4B40000CD5F /* UIStoryboard+Extension.swift in Sources */,

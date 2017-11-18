@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import Alamofire
 
 struct ApplicationServices {
     var navService: NavigationService

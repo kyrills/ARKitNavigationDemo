@@ -12,7 +12,7 @@ class TEstCoordinatorViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        GateLocationService.sharedInstance.getToken()
         // Do any additional setup after loading the view.
     }
 

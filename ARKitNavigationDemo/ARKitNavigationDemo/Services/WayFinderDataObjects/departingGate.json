@@ -1,0 +1,3780 @@
+{
+	"displayFieldName": "name",
+	"fieldAliases": {
+		"objectid": "OBJECTID",
+		"reference": "Reference",
+		"verdieping": "Floor",
+		"category": "Category",
+		"subcategory": "Subcategory",
+		"name": "Name",
+		"description": "Description",
+		"tags": "Tags",
+		"airside_landside": "Airside / Landside",
+		"sublocation": "Sublocation",
+		"timewindowstart": "Start Date",
+		"timewindowend": "End Date",
+		"visible": "Visible",
+		"searchable": "Searchable",
+		"auto_update": "Automatic Update",
+		"date_created": "Date Created",
+		"date_modified": "Date Modified"
+	},
+	"geometryType": "esriGeometryPoint",
+	"spatialReference": {
+		"wkid": 4326,
+		"latestWkid": 4326
+	},
+	"fields": [{
+		"name": "objectid",
+		"type": "esriFieldTypeOID",
+		"alias": "OBJECTID"
+	}, {
+		"name": "reference",
+		"type": "esriFieldTypeString",
+		"alias": "Reference",
+		"length": 50
+	}, {
+		"name": "verdieping",
+		"type": "esriFieldTypeSmallInteger",
+		"alias": "Floor"
+	}, {
+		"name": "category",
+		"type": "esriFieldTypeSmallInteger",
+		"alias": "Category"
+	}, {
+		"name": "subcategory",
+		"type": "esriFieldTypeString",
+		"alias": "Subcategory",
+		"length": 50
+	}, {
+		"name": "name",
+		"type": "esriFieldTypeString",
+		"alias": "Name",
+		"length": 50
+	}, {
+		"name": "description",
+		"type": "esriFieldTypeString",
+		"alias": "Description",
+		"length": 200
+	}, {
+		"name": "tags",
+		"type": "esriFieldTypeString",
+		"alias": "Tags",
+		"length": 200
+	}, {
+		"name": "airside_landside",
+		"type": "esriFieldTypeString",
+		"alias": "Airside / Landside",
+		"length": 50
+	}, {
+		"name": "sublocation",
+		"type": "esriFieldTypeString",
+		"alias": "Sublocation",
+		"length": 50
+	}, {
+		"name": "timewindowstart",
+		"type": "esriFieldTypeDate",
+		"alias": "Start Date",
+		"length": 8
+	}, {
+		"name": "timewindowend",
+		"type": "esriFieldTypeDate",
+		"alias": "End Date",
+		"length": 8
+	}, {
+		"name": "visible",
+		"type": "esriFieldTypeSmallInteger",
+		"alias": "Visible"
+	}, {
+		"name": "searchable",
+		"type": "esriFieldTypeSmallInteger",
+		"alias": "Searchable"
+	}, {
+		"name": "auto_update",
+		"type": "esriFieldTypeSmallInteger",
+		"alias": "Automatic Update"
+	}, {
+		"name": "date_created",
+		"type": "esriFieldTypeDate",
+		"alias": "Date Created",
+		"length": 8
+	}, {
+		"name": "date_modified",
+		"type": "esriFieldTypeDate",
+		"alias": "Date Modified",
+		"length": 8
+	}],
+	"features": [{
+		"attributes": {
+			"objectid": 110,
+			"reference": "GP-01-RG8-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "G08",
+			"description": null,
+			"tags": "G08, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "G-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673991000,
+			"date_modified": null
+		},
+		"geometry": {
+			"x": 4.7570707219740012,
+			"y": 52.313855812331283
+		}
+	}, {
+		"attributes": {
+			"objectid": 111,
+			"reference": "HP-01-R1038",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "Fallback locatie Mpier",
+			"description": null,
+			"tags": "M00, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "M-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 0,
+			"auto_update": 0,
+			"date_created": 1480673992000,
+			"date_modified": null
+		},
+		"geometry": {
+			"x": 4.7566850012462032,
+			"y": 52.310657601961609
+		}
+	}, {
+		"attributes": {
+			"objectid": 289,
+			"reference": "GP-01-RG5-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "G05",
+			"description": null,
+			"tags": "G05, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "G-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673992000,
+			"date_modified": null
+		},
+		"geometry": {
+			"x": 4.7568798623195612,
+			"y": 52.311944768863135
+		}
+	}, {
+		"attributes": {
+			"objectid": 290,
+			"reference": "GP-01-RG2-04",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "G02",
+			"description": null,
+			"tags": "G02, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "G-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673992000,
+			"date_modified": null
+		},
+		"geometry": {
+			"x": 4.7572836493971007,
+			"y": 52.311844346452446
+		}
+	}, {
+		"attributes": {
+			"objectid": 314,
+			"reference": "EP-01-RE7-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "E07",
+			"description": null,
+			"tags": "E07, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "E-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673992000,
+			"date_modified": 1499340511000
+		},
+		"geometry": {
+			"x": 4.7664561277138056,
+			"y": 52.311845636706018
+		}
+	}, {
+		"attributes": {
+			"objectid": 316,
+			"reference": "EP-01-RE6-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "E06",
+			"description": null,
+			"tags": "E06, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "E-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673992000,
+			"date_modified": 1493053610000
+		},
+		"geometry": {
+			"x": 4.7666507063027179,
+			"y": 52.311622988803137
+		}
+	}, {
+		"attributes": {
+			"objectid": 317,
+			"reference": "EP-01-RE5-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "E05",
+			"description": null,
+			"tags": "E05, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "E-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673992000,
+			"date_modified": 1499340511000
+		},
+		"geometry": {
+			"x": 4.7658187382714372,
+			"y": 52.311203580812588
+		}
+	}, {
+		"attributes": {
+			"objectid": 357,
+			"reference": "GP-01-RG6-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "G06",
+			"description": null,
+			"tags": "G06, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "G-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673991000,
+			"date_modified": null
+		},
+		"geometry": {
+			"x": 4.7571493158124714,
+			"y": 52.313253973429369
+		}
+	}, {
+		"attributes": {
+			"objectid": 374,
+			"reference": "EP-01-RE4-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "E04",
+			"description": null,
+			"tags": "E04, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "E-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673992000,
+			"date_modified": 1493053610000
+		},
+		"geometry": {
+			"x": 4.7661211356773929,
+			"y": 52.311164376528765
+		}
+	}, {
+		"attributes": {
+			"objectid": 386,
+			"reference": "FP-01-RF9-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "F09",
+			"description": null,
+			"tags": "F09, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "F-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673999000,
+			"date_modified": 1503906060000
+		},
+		"geometry": {
+			"x": 4.7617450121673546,
+			"y": 52.313035399411774
+		}
+	}, {
+		"attributes": {
+			"objectid": 412,
+			"reference": "GP-01-RG7-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "G07",
+			"description": null,
+			"tags": "G07, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "G-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673992000,
+			"date_modified": null
+		},
+		"geometry": {
+			"x": 4.7568382546683656,
+			"y": 52.312588330686111
+		}
+	}, {
+		"attributes": {
+			"objectid": 415,
+			"reference": "GP-01-R1101",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "Fallback locatie Hpier",
+			"description": null,
+			"tags": "H00, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "G-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 0,
+			"auto_update": 0,
+			"date_created": 1480673992000,
+			"date_modified": 1480945823000
+		},
+		"geometry": {
+			"x": 4.7571176971531663,
+			"y": 52.311269367475013
+		}
+	}, {
+		"attributes": {
+			"objectid": 445,
+			"reference": "GP-01-RG4-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "G04",
+			"description": null,
+			"tags": "G04, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "G-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673997000,
+			"date_modified": null
+		},
+		"geometry": {
+			"x": 4.7572373959417842,
+			"y": 52.312591558041923
+		}
+	}, {
+		"attributes": {
+			"objectid": 530,
+			"reference": "BP-01-RB31-04",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "B31",
+			"description": null,
+			"tags": "B31, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "B-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673997000,
+			"date_modified": 1499340511000
+		},
+		"geometry": {
+			"x": 4.7633752642602651,
+			"y": 52.303429660591426
+		}
+	}, {
+		"attributes": {
+			"objectid": 598,
+			"reference": "FP-01-RF3-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "F03",
+			"description": null,
+			"tags": "F03, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "F-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673992000,
+			"date_modified": 1484639153000
+		},
+		"geometry": {
+			"x": 4.7617890730069954,
+			"y": 52.311906087311293
+		}
+	}, {
+		"attributes": {
+			"objectid": 600,
+			"reference": "FP-01-RF7-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "F07",
+			"description": null,
+			"tags": "F07, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "F-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673992000,
+			"date_modified": 1499340511000
+		},
+		"geometry": {
+			"x": 4.7613594187769515,
+			"y": 52.312992729405423
+		}
+	}, {
+		"attributes": {
+			"objectid": 602,
+			"reference": "FP-01-RF5-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "F05",
+			"description": null,
+			"tags": "F05, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "F-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673992000,
+			"date_modified": 1484639153000
+		},
+		"geometry": {
+			"x": 4.7615650394618942,
+			"y": 52.31269498255498
+		}
+	}, {
+		"attributes": {
+			"objectid": 624,
+			"reference": "AG-10290-HP-01",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "H01",
+			"description": null,
+			"tags": "H01, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "H-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 0,
+			"date_created": 1480673992000,
+			"date_modified": 1490140800000
+		},
+		"geometry": {
+			"x": 4.7563628775670734,
+			"y": 52.310621539923581
+		}
+	}, {
+		"attributes": {
+			"objectid": 625,
+			"reference": "AG-10240-HP-01",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "H06",
+			"description": null,
+			"tags": "H06, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "H-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 0,
+			"date_created": 1480673991000,
+			"date_modified": 1490140800000
+		},
+		"geometry": {
+			"x": 4.7536691385461198,
+			"y": 52.309580856657426
+		}
+	}, {
+		"attributes": {
+			"objectid": 626,
+			"reference": "AG-10250-HP-01",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "H05",
+			"description": null,
+			"tags": "H05, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "H-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 0,
+			"date_created": 1480673992000,
+			"date_modified": 1490140800000
+		},
+		"geometry": {
+			"x": 4.7542098231660113,
+			"y": 52.309789750328122
+		}
+	}, {
+		"attributes": {
+			"objectid": 627,
+			"reference": "AG-10270-HP-01",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "H03",
+			"description": null,
+			"tags": "H03, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "H-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 0,
+			"date_created": 1480673993000,
+			"date_modified": 1490140800000
+		},
+		"geometry": {
+			"x": 4.7552889690321694,
+			"y": 52.310206665329446
+		}
+	}, {
+		"attributes": {
+			"objectid": 628,
+			"reference": "AG-10230-HP-01",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "H07",
+			"description": null,
+			"tags": "H07, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "H-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 0,
+			"date_created": 1480673993000,
+			"date_modified": 1490140800000
+		},
+		"geometry": {
+			"x": 4.7531297219071442,
+			"y": 52.309372449031514
+		}
+	}, {
+		"attributes": {
+			"objectid": 630,
+			"reference": "AG-10280-HP-01",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "H02",
+			"description": null,
+			"tags": "H02, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "H-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 0,
+			"date_created": 1480673992000,
+			"date_modified": 1490140800000
+		},
+		"geometry": {
+			"x": 4.7558256480868097,
+			"y": 52.310413997683149
+		}
+	}, {
+		"attributes": {
+			"objectid": 631,
+			"reference": "AG-10260-HP-01",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "H04",
+			"description": null,
+			"tags": "H04, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "H-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 0,
+			"date_created": 1480673992000,
+			"date_modified": 1490140800000
+		},
+		"geometry": {
+			"x": 4.7547493607641673,
+			"y": 52.309998195854106
+		}
+	}, {
+		"attributes": {
+			"objectid": 663,
+			"reference": "BP-00-R0677",
+			"verdieping": 0,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "B01",
+			"description": null,
+			"tags": "B01, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "B-PIER-00",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673992000,
+			"date_modified": null
+		},
+		"geometry": {
+			"x": 4.761861236237702,
+			"y": 52.304909118271347
+		}
+	}, {
+		"attributes": {
+			"objectid": 664,
+			"reference": "BP-00-R0681",
+			"verdieping": 0,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "B03",
+			"description": null,
+			"tags": "B03, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "B-PIER-00",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673992000,
+			"date_modified": null
+		},
+		"geometry": {
+			"x": 4.7619638629962102,
+			"y": 52.304808661134736
+		}
+	}, {
+		"attributes": {
+			"objectid": 665,
+			"reference": "BP-00-R0699",
+			"verdieping": 0,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "B08",
+			"description": null,
+			"tags": "B08, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "B-PIER-00",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673997000,
+			"date_modified": null
+		},
+		"geometry": {
+			"x": 4.7620103241984335,
+			"y": 52.304425723905965
+		}
+	}, {
+		"attributes": {
+			"objectid": 666,
+			"reference": "CP-00-RC22",
+			"verdieping": 0,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "C22",
+			"description": null,
+			"tags": "C22, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "C-PIER-00",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673991000,
+			"date_modified": null
+		},
+		"geometry": {
+			"x": 4.7653356302981162,
+			"y": 52.306262018438431
+		}
+	}, {
+		"attributes": {
+			"objectid": 667,
+			"reference": "CP-00-RC24",
+			"verdieping": 0,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "C24",
+			"description": null,
+			"tags": "C24, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "C-PIER-00",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673991000,
+			"date_modified": null
+		},
+		"geometry": {
+			"x": 4.7654450531376957,
+			"y": 52.306155888546925
+		}
+	}, {
+		"attributes": {
+			"objectid": 669,
+			"reference": "CP-00-RC21",
+			"verdieping": 0,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "C21",
+			"description": null,
+			"tags": "C21, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "C-PIER-00",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673992000,
+			"date_modified": 1501498549000
+		},
+		"geometry": {
+			"x": 4.7652887510846753,
+			"y": 52.306488288382873
+		}
+	}, {
+		"attributes": {
+			"objectid": 674,
+			"reference": "CP-00-RC23",
+			"verdieping": 0,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "C23",
+			"description": null,
+			"tags": "C23, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "C-PIER-00",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673999000,
+			"date_modified": null
+		},
+		"geometry": {
+			"x": 4.7653907655578598,
+			"y": 52.306387913184103
+		}
+	}, {
+		"attributes": {
+			"objectid": 717,
+			"reference": "CP-01-RC10-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "C10",
+			"description": null,
+			"tags": "C10, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "C-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673991000,
+			"date_modified": null
+		},
+		"geometry": {
+			"x": 4.7661172730473655,
+			"y": 52.305339316549997
+		}
+	}, {
+		"attributes": {
+			"objectid": 718,
+			"reference": "CP-01-RC7-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "C07",
+			"description": null,
+			"tags": "C07, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "C-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673991000,
+			"date_modified": 1498634126000
+		},
+		"geometry": {
+			"x": 4.7658378195872375,
+			"y": 52.305973967721179
+		}
+	}, {
+		"attributes": {
+			"objectid": 720,
+			"reference": "CP-01-RC4-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "C04",
+			"description": null,
+			"tags": "C04, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "C-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673992000,
+			"date_modified": 1498634126000
+		},
+		"geometry": {
+			"x": 4.765221744745352,
+			"y": 52.306349332878831
+		}
+	}, {
+		"attributes": {
+			"objectid": 721,
+			"reference": "CP-01-RC16-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "C16",
+			"description": null,
+			"tags": "C16, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "C-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673992000,
+			"date_modified": 1498634126000
+		},
+		"geometry": {
+			"x": 4.7663490429252588,
+			"y": 52.304908493477932
+		}
+	}, {
+		"attributes": {
+			"objectid": 722,
+			"reference": "CP-01-RC12-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "C12",
+			"description": null,
+			"tags": "C12, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "C-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673992000,
+			"date_modified": 1498634126000
+		},
+		"geometry": {
+			"x": 4.7661461989045044,
+			"y": 52.305243943324179
+		}
+	}, {
+		"attributes": {
+			"objectid": 723,
+			"reference": "CP-01-RC6-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "C06",
+			"description": null,
+			"tags": "C06, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "C-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673992000,
+			"date_modified": 1498634126000
+		},
+		"geometry": {
+			"x": 4.7655194436209083,
+			"y": 52.306060536059334
+		}
+	}, {
+		"attributes": {
+			"objectid": 724,
+			"reference": "CP-01-RC8-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "C08",
+			"description": null,
+			"tags": "C08, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "C-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673992000,
+			"date_modified": 1498634126000
+		},
+		"geometry": {
+			"x": 4.7659209496303196,
+			"y": 52.305663799956378
+		}
+	}, {
+		"attributes": {
+			"objectid": 725,
+			"reference": "CP-01-RC14-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "C14",
+			"description": null,
+			"tags": "C14, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "C-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673992000,
+			"date_modified": 1498634126000
+		},
+		"geometry": {
+			"x": 4.7661947854447595,
+			"y": 52.304944684111923
+		}
+	}, {
+		"attributes": {
+			"objectid": 726,
+			"reference": "CP-01-RC11-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "C11",
+			"description": null,
+			"tags": "C11, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "C-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673992000,
+			"date_modified": 1498634126000
+		},
+		"geometry": {
+			"x": 4.7671363780021361,
+			"y": 52.305250713951381
+		}
+	}, {
+		"attributes": {
+			"objectid": 727,
+			"reference": "CP-01-RC13-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "C13",
+			"description": null,
+			"tags": "C13, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "C-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673993000,
+			"date_modified": 1498634126000
+		},
+		"geometry": {
+			"x": 4.7670114222027928,
+			"y": 52.305162774710944
+		}
+	}, {
+		"attributes": {
+			"objectid": 775,
+			"reference": "BP-00-R0695",
+			"verdieping": 0,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "B04",
+			"description": null,
+			"tags": "B04, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "B-PIER-00",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673991000,
+			"date_modified": null
+		},
+		"geometry": {
+			"x": 4.7617162629801113,
+			"y": 52.304713577659676
+		}
+	}, {
+		"attributes": {
+			"objectid": 776,
+			"reference": "BP-00-R0690",
+			"verdieping": 0,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "B05",
+			"description": null,
+			"tags": "B05, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "B-PIER-00",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673992000,
+			"date_modified": null
+		},
+		"geometry": {
+			"x": 4.7621553736254469,
+			"y": 52.304621190867849
+		}
+	}, {
+		"attributes": {
+			"objectid": 777,
+			"reference": "BP-00-R0693",
+			"verdieping": 0,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "B02",
+			"description": null,
+			"tags": "B02, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "B-PIER-00",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673991000,
+			"date_modified": null
+		},
+		"geometry": {
+			"x": 4.7616136586107203,
+			"y": 52.304813982573435
+		}
+	}, {
+		"attributes": {
+			"objectid": 778,
+			"reference": "BP-00-R0697",
+			"verdieping": 0,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "B06",
+			"description": null,
+			"tags": "B06, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "B-PIER-00",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673991000,
+			"date_modified": null
+		},
+		"geometry": {
+			"x": 4.7619077591597367,
+			"y": 52.304526137370964
+		}
+	}, {
+		"attributes": {
+			"objectid": 779,
+			"reference": "BP-00-R0694",
+			"verdieping": 0,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "B07",
+			"description": null,
+			"tags": "B07, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "B-PIER-00",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673992000,
+			"date_modified": null
+		},
+		"geometry": {
+			"x": 4.7622579733490795,
+			"y": 52.304520789059062
+		}
+	}, {
+		"attributes": {
+			"objectid": 785,
+			"reference": "BP-01-RB22-04",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "B22",
+			"description": null,
+			"tags": "B22, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "B-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673999000,
+			"date_modified": 1499340511000
+		},
+		"geometry": {
+			"x": 4.7623681459819123,
+			"y": 52.304061029002902
+		}
+	}, {
+		"attributes": {
+			"objectid": 841,
+			"reference": "BP-01-RB17-04",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "B17",
+			"description": null,
+			"tags": "B17, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "B-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673991000,
+			"date_modified": 1499340511000
+		},
+		"geometry": {
+			"x": 4.7623021782471824,
+			"y": 52.304483595220383
+		}
+	}, {
+		"attributes": {
+			"objectid": 842,
+			"reference": "BP-01-RB13-04",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "B13",
+			"description": null,
+			"tags": "B13, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "B-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673991000,
+			"date_modified": 1484639153000
+		},
+		"geometry": {
+			"x": 4.7616440767689872,
+			"y": 52.305125241543202
+		}
+	}, {
+		"attributes": {
+			"objectid": 843,
+			"reference": "BP-01-RB28-04",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "B28",
+			"description": null,
+			"tags": "B28, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "B-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673992000,
+			"date_modified": 1499340511000
+		},
+		"geometry": {
+			"x": 4.7628272820341033,
+			"y": 52.303618910479379
+		}
+	}, {
+		"attributes": {
+			"objectid": 844,
+			"reference": "BP-01-RB32-04",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "B32",
+			"description": null,
+			"tags": "B32, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "B-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673991000,
+			"date_modified": 1499340511000
+		},
+		"geometry": {
+			"x": 4.7631163175191213,
+			"y": 52.303336369860808
+		}
+	}, {
+		"attributes": {
+			"objectid": 845,
+			"reference": "BP-01-RB35-04",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "B35",
+			"description": null,
+			"tags": "B35, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "B-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673991000,
+			"date_modified": 1499340511000
+		},
+		"geometry": {
+			"x": 4.763607419787764,
+			"y": 52.303202737863778
+		}
+	}, {
+		"attributes": {
+			"objectid": 846,
+			"reference": "BP-01-RB27-04",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "B27",
+			"description": null,
+			"tags": "B27, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "B-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673991000,
+			"date_modified": 1499340511000
+		},
+		"geometry": {
+			"x": 4.7629986225129244,
+			"y": 52.30380677484478
+		}
+	}, {
+		"attributes": {
+			"objectid": 847,
+			"reference": "BP-01-RB15-04",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "B15",
+			"description": null,
+			"tags": "B15, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "B-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673991000,
+			"date_modified": 1499340511000
+		},
+		"geometry": {
+			"x": 4.762002543677375,
+			"y": 52.304773343638963
+		}
+	}, {
+		"attributes": {
+			"objectid": 848,
+			"reference": "BP-01-RB26-04",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "B26",
+			"description": null,
+			"tags": "B26, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "B-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673991000,
+			"date_modified": 1499340511000
+		},
+		"geometry": {
+			"x": 4.7626546939741967,
+			"y": 52.303792927109477
+		}
+	}, {
+		"attributes": {
+			"objectid": 849,
+			"reference": "BP-01-RB20-04",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "B20",
+			"description": null,
+			"tags": "B20, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "B-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673992000,
+			"date_modified": 1499340511000
+		},
+		"geometry": {
+			"x": 4.762272458006497,
+			"y": 52.304166310109224
+		}
+	}, {
+		"attributes": {
+			"objectid": 850,
+			"reference": "BP-01-RB16-04",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "B16",
+			"description": null,
+			"tags": "B16, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "B-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673991000,
+			"date_modified": 1499340511000
+		},
+		"geometry": {
+			"x": 4.7619851408377469,
+			"y": 52.304446009491471
+		}
+	}, {
+		"attributes": {
+			"objectid": 851,
+			"reference": "BP-01-RB30-04",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "B30",
+			"description": null,
+			"tags": "B30, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "B-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673991000,
+			"date_modified": 1499340511000
+		},
+		"geometry": {
+			"x": 4.7629271947916489,
+			"y": 52.30352216006834
+		}
+	}, {
+		"attributes": {
+			"objectid": 857,
+			"reference": "DP-01-RD48-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "D48",
+			"description": null,
+			"tags": "D48, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "DP-NOORDEXTENSIE-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673997000,
+			"date_modified": 1505724549000
+		},
+		"geometry": {
+			"x": 4.7719411863608547,
+			"y": 52.309381725485878
+		}
+	}, {
+		"attributes": {
+			"objectid": 858,
+			"reference": "DP-01-RD44-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "D44",
+			"description": null,
+			"tags": "D44, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "DP-NOORDEXTENSIE-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673997000,
+			"date_modified": 1499340511000
+		},
+		"geometry": {
+			"x": 4.7708984589151635,
+			"y": 52.309413588019439
+		}
+	}, {
+		"attributes": {
+			"objectid": 870,
+			"reference": "DP-01-RD43-04",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "D43",
+			"description": null,
+			"tags": "D43, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "DP-NOORDEXTENSIE-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673997000,
+			"date_modified": 1499340511000
+		},
+		"geometry": {
+			"x": 4.769711029120951,
+			"y": 52.309330685571496
+		}
+	}, {
+		"attributes": {
+			"objectid": 885,
+			"reference": "DP-01-RD47-04",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "D47",
+			"description": null,
+			"tags": "D47, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "DP-NOORDEXTENSIE-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673992000,
+			"date_modified": 1499340511000
+		},
+		"geometry": {
+			"x": 4.7702401807524,
+			"y": 52.309623761548409
+		}
+	}, {
+		"attributes": {
+			"objectid": 886,
+			"reference": "DP-01-RD54-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "D54",
+			"description": null,
+			"tags": "D54, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "DP-NOORDEXTENSIE-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673991000,
+			"date_modified": 1503906060000
+		},
+		"geometry": {
+			"x": 4.7732883297760651,
+			"y": 52.309333387294465
+		}
+	}, {
+		"attributes": {
+			"objectid": 887,
+			"reference": "DP-01-RD49-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "D49",
+			"description": null,
+			"tags": "D49, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "DP-NOORDEXTENSIE-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673991000,
+			"date_modified": null
+		},
+		"geometry": {
+			"x": 4.7708708227474785,
+			"y": 52.3096344937777
+		}
+	}, {
+		"attributes": {
+			"objectid": 888,
+			"reference": "DP-01-RD53-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "D53",
+			"description": null,
+			"tags": "D53, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "DP-NOORDEXTENSIE-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673991000,
+			"date_modified": 1505724549000
+		},
+		"geometry": {
+			"x": 4.7721556931520546,
+			"y": 52.309585659728029
+		}
+	}, {
+		"attributes": {
+			"objectid": 889,
+			"reference": "DP-01-RD57-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "D57",
+			"description": null,
+			"tags": "D57, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "DP-NOORDEXTENSIE-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673992000,
+			"date_modified": 1503906060000
+		},
+		"geometry": {
+			"x": 4.7734478640693805,
+			"y": 52.309539941434771
+		}
+	}, {
+		"attributes": {
+			"objectid": 890,
+			"reference": "DP-01-RD52-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "D52",
+			"description": null,
+			"tags": "D52, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "DP-NOORDEXTENSIE-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673992000,
+			"date_modified": null
+		},
+		"geometry": {
+			"x": 4.7726570431336679,
+			"y": 52.309340790455352
+		}
+	}, {
+		"attributes": {
+			"objectid": 899,
+			"reference": "BP-01-RB18-04",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "B18",
+			"description": null,
+			"tags": "B18, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "B-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673992000,
+			"date_modified": 1499340511000
+		},
+		"geometry": {
+			"x": 4.762094841377154,
+			"y": 52.304337380984869
+		}
+	}, {
+		"attributes": {
+			"objectid": 900,
+			"reference": "BP-01-RB24-04",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "B24",
+			"description": null,
+			"tags": "B24, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "B-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673992000,
+			"date_modified": 1499340511000
+		},
+		"geometry": {
+			"x": 4.7625390688575271,
+			"y": 52.303905165840348
+		}
+	}, {
+		"attributes": {
+			"objectid": 901,
+			"reference": "BP-01-RB36-04",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "B36",
+			"description": null,
+			"tags": "B36, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "B-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673997000,
+			"date_modified": 1499340511000
+		},
+		"geometry": {
+			"x": 4.7634723576664966,
+			"y": 52.303069049703844
+		}
+	}, {
+		"attributes": {
+			"objectid": 904,
+			"reference": "BP-01-RB23-04",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "B23",
+			"description": null,
+			"tags": "B23, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "B-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673992000,
+			"date_modified": 1499340511000
+		},
+		"geometry": {
+			"x": 4.7626889159136567,
+			"y": 52.304101495174713
+		}
+	}, {
+		"attributes": {
+			"objectid": 905,
+			"reference": "BP-01-RB34-04",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "B34",
+			"description": null,
+			"tags": "B34, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "B-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673992000,
+			"date_modified": 1499340511000
+		},
+		"geometry": {
+			"x": 4.7632195961736077,
+			"y": 52.30323476102955
+		}
+	}, {
+		"attributes": {
+			"objectid": 915,
+			"reference": "DP-01-RD04-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "D04",
+			"description": null,
+			"tags": "D04, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "DP-STEEL-01",
+			"timewindowstart": 1493078400000,
+			"timewindowend": 253402214400000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1493053610000,
+			"date_modified": null
+		},
+		"geometry": {
+			"x": 4.7670728898394135,
+			"y": 52.308441806895424
+		}
+	}, {
+		"attributes": {
+			"objectid": 917,
+			"reference": "DP-01-RD02-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "D02",
+			"description": null,
+			"tags": "D02, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "DP-STEEL-01",
+			"timewindowstart": 1493078400000,
+			"timewindowend": 253402214400000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1493053610000,
+			"date_modified": null
+		},
+		"geometry": {
+			"x": 4.7662945303151201,
+			"y": 52.308459055548973
+		}
+	}, {
+		"attributes": {
+			"objectid": 960,
+			"reference": "DP-01-RD31-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "D31",
+			"description": null,
+			"tags": "D31, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "DP-ZUIDEXTENSIE-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673991000,
+			"date_modified": null
+		},
+		"geometry": {
+			"x": 4.7734161637651278,
+			"y": 52.307512136125041
+		}
+	}, {
+		"attributes": {
+			"objectid": 961,
+			"reference": "DP-01-RD28-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "D28",
+			"description": null,
+			"tags": "D28, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "DP-ZUIDEXTENSIE-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673991000,
+			"date_modified": 1505724549000
+		},
+		"geometry": {
+			"x": 4.7734152273679786,
+			"y": 52.307388225209408
+		}
+	}, {
+		"attributes": {
+			"objectid": 962,
+			"reference": "DP-01-RD27-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "D27",
+			"description": null,
+			"tags": "D27, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "DP-ZUIDEXTENSIE-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673991000,
+			"date_modified": 1498634126000
+		},
+		"geometry": {
+			"x": 4.7724220786367342,
+			"y": 52.307536946406259
+		}
+	}, {
+		"attributes": {
+			"objectid": 966,
+			"reference": "DP-01-RD16-04",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "D16",
+			"description": null,
+			"tags": "D16, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "DP-ZUIDEXTENSIE-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673992000,
+			"date_modified": null
+		},
+		"geometry": {
+			"x": 4.7704977756965432,
+			"y": 52.307492430211354
+		}
+	}, {
+		"attributes": {
+			"objectid": 967,
+			"reference": "DP-01-RD22-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "D22",
+			"description": null,
+			"tags": "D22, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "DP-ZUIDEXTENSIE-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673992000,
+			"date_modified": null
+		},
+		"geometry": {
+			"x": 4.7716782246743019,
+			"y": 52.307430378774498
+		}
+	}, {
+		"attributes": {
+			"objectid": 968,
+			"reference": "DP-01-RD25-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "D25",
+			"description": null,
+			"tags": "D25, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "DP-ZUIDEXTENSIE-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673992000,
+			"date_modified": 1507030344000
+		},
+		"geometry": {
+			"x": 4.7713770192706253,
+			"y": 52.307601793619099
+		}
+	}, {
+		"attributes": {
+			"objectid": 969,
+			"reference": "DP-01-RD29-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "D29",
+			"description": null,
+			"tags": "D29, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "DP-ZUIDEXTENSIE-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673992000,
+			"date_modified": 1498634126000
+		},
+		"geometry": {
+			"x": 4.7728746538256086,
+			"y": 52.307527628800059
+		}
+	}, {
+		"attributes": {
+			"objectid": 970,
+			"reference": "DP-01-RD26-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "D26",
+			"description": null,
+			"tags": "D26, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "DP-ZUIDEXTENSIE-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673992000,
+			"date_modified": null
+		},
+		"geometry": {
+			"x": 4.7728551453426515,
+			"y": 52.30739396213874
+		}
+	}, {
+		"attributes": {
+			"objectid": 1023,
+			"reference": "DP-01-RD18-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "D18",
+			"description": null,
+			"tags": "D18, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "DP-ZUIDEXTENSIE-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673998000,
+			"date_modified": null
+		},
+		"geometry": {
+			"x": 4.7711038457255981,
+			"y": 52.307450138598007
+		}
+	}, {
+		"attributes": {
+			"objectid": 1028,
+			"reference": "DP-01-RD55-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "D55",
+			"description": null,
+			"tags": "D55, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "DP-NOORDEXTENSIE-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673991000,
+			"date_modified": 1503906060000
+		},
+		"geometry": {
+			"x": 4.7730042613087917,
+			"y": 52.309554173931666
+		}
+	}, {
+		"attributes": {
+			"objectid": 1029,
+			"reference": "DP-01-RD51-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "D51",
+			"description": null,
+			"tags": "D51, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "DP-NOORDEXTENSIE-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673991000,
+			"date_modified": null
+		},
+		"geometry": {
+			"x": 4.7714184288600947,
+			"y": 52.30960987968097
+		}
+	}, {
+		"attributes": {
+			"objectid": 1122,
+			"reference": "EP-01-RE8-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "E08",
+			"description": null,
+			"tags": "E08, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "E-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673991000,
+			"date_modified": 1499340511000
+		},
+		"geometry": {
+			"x": 4.7673149655251033,
+			"y": 52.312093089050215
+		}
+	}, {
+		"attributes": {
+			"objectid": 1123,
+			"reference": "EP-01-RE9-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "E09",
+			"description": null,
+			"tags": "E09, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "E-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673991000,
+			"date_modified": 1493053610000
+		},
+		"geometry": {
+			"x": 4.7666889894019864,
+			"y": 52.312224814961375
+		}
+	}, {
+		"attributes": {
+			"objectid": 1125,
+			"reference": "EP-01-RE19-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "E19",
+			"description": null,
+			"tags": "E19, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "E-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673992000,
+			"date_modified": 1501576738000
+		},
+		"geometry": {
+			"x": 4.7680591492708375,
+			"y": 52.31336824983434
+		}
+	}, {
+		"attributes": {
+			"objectid": 1139,
+			"reference": "DP-01-RD24-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "D24",
+			"description": null,
+			"tags": "D24, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "DP-ZUIDEXTENSIE-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673992000,
+			"date_modified": null
+		},
+		"geometry": {
+			"x": 4.7723196677529529,
+			"y": 52.307417696726461
+		}
+	}, {
+		"attributes": {
+			"objectid": 1140,
+			"reference": "DP-01-RD14-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "D14",
+			"description": null,
+			"tags": "D14, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "DP-ZUIDEXTENSIE-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673992000,
+			"date_modified": 1502703469000
+		},
+		"geometry": {
+			"x": 4.7697389308938121,
+			"y": 52.307490559262106
+		}
+	}, {
+		"attributes": {
+			"objectid": 1141,
+			"reference": "DP-01-RD23-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "D23",
+			"description": null,
+			"tags": "D23, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "DP-ZUIDEXTENSIE-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673992000,
+			"date_modified": 1507030344000
+		},
+		"geometry": {
+			"x": 4.7708766848377522,
+			"y": 52.30761271714826
+		}
+	}, {
+		"attributes": {
+			"objectid": 1159,
+			"reference": "EP-01-RE17-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "E17",
+			"description": null,
+			"tags": "E17, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "E-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673992000,
+			"date_modified": null
+		},
+		"geometry": {
+			"x": 4.7677123414267282,
+			"y": 52.313088147036062
+		}
+	}, {
+		"attributes": {
+			"objectid": 1176,
+			"reference": "AG-10190-HP-01",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "M01",
+			"description": "H/M01",
+			"tags": "M01, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "M-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 1,
+			"searchable": 1,
+			"auto_update": 0,
+			"date_created": 1490140800000,
+			"date_modified": 1490140800000
+		},
+		"geometry": {
+			"x": 4.7564135559101119,
+			"y": 52.310567216839559
+		}
+	}, {
+		"attributes": {
+			"objectid": 1177,
+			"reference": "AG-10200-HP-01",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "M02",
+			"description": "H/M02",
+			"tags": "M02, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "M-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 1,
+			"searchable": 1,
+			"auto_update": 0,
+			"date_created": 1490140800000,
+			"date_modified": 1490140800000
+		},
+		"geometry": {
+			"x": 4.7558745502571158,
+			"y": 52.310359007431607
+		}
+	}, {
+		"attributes": {
+			"objectid": 1178,
+			"reference": "AG-10170-HP-01",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "M03",
+			"description": "H/M03",
+			"tags": "M03, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "M-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 1,
+			"searchable": 1,
+			"auto_update": 0,
+			"date_created": 1490140800000,
+			"date_modified": 1490140800000
+		},
+		"geometry": {
+			"x": 4.7553417040199779,
+			"y": 52.310153172481087
+		}
+	}, {
+		"attributes": {
+			"objectid": 1179,
+			"reference": "AG-10220-HP-01",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "M04",
+			"description": "H/M04",
+			"tags": "M04, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "M-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 1,
+			"searchable": 1,
+			"auto_update": 0,
+			"date_created": 1490140800000,
+			"date_modified": 1490140800000
+		},
+		"geometry": {
+			"x": 4.7547975530790607,
+			"y": 52.309942966761412
+		}
+	}, {
+		"attributes": {
+			"objectid": 1180,
+			"reference": "AG-10210-HP-01",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "M07",
+			"description": "H/M07",
+			"tags": "M07, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "M-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 1,
+			"searchable": 1,
+			"auto_update": 0,
+			"date_created": 1490140800000,
+			"date_modified": 1490140800000
+		},
+		"geometry": {
+			"x": 4.7531820127211493,
+			"y": 52.309318854085198
+		}
+	}, {
+		"attributes": {
+			"objectid": 1192,
+			"reference": "AG-10000-EP-01",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "E01",
+			"description": null,
+			"tags": "E01, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "E-PIER-01",
+			"timewindowstart": 1492560000000,
+			"timewindowend": 253402214400000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 0,
+			"date_created": null,
+			"date_modified": null
+		},
+		"geometry": {
+			"x": 4.7651079372460474,
+			"y": 52.310531344922808
+		}
+	}, {
+		"attributes": {
+			"objectid": 1193,
+			"reference": "AG-10010-DP-01",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "D01",
+			"description": null,
+			"tags": "D01, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "DP-STEEL-01",
+			"timewindowstart": 1492560000000,
+			"timewindowend": 253402214400000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 0,
+			"date_created": null,
+			"date_modified": null
+		},
+		"geometry": {
+			"x": 4.7658962327035725,
+			"y": 52.308786864483189
+		}
+	}, {
+		"attributes": {
+			"objectid": 1204,
+			"reference": "DP-02-R2593",
+			"verdieping": 20,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "D81",
+			"description": null,
+			"tags": "D81, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "DP-NOORDEXTENSIE-02",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673999000,
+			"date_modified": null
+		},
+		"geometry": {
+			"x": 4.7713928203546505,
+			"y": 52.309559646121436
+		}
+	}, {
+		"attributes": {
+			"objectid": 1233,
+			"reference": "DP-02-R2717",
+			"verdieping": 20,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "D87",
+			"description": null,
+			"tags": "D87, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "DP-NOORDEXTENSIE-02",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673997000,
+			"date_modified": null
+		},
+		"geometry": {
+			"x": 4.7734226462105473,
+			"y": 52.309490669356009
+		}
+	}, {
+		"attributes": {
+			"objectid": 1234,
+			"reference": "DP-02-RD82-05",
+			"verdieping": 20,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "D82",
+			"description": null,
+			"tags": "D82, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "DP-NOORDEXTENSIE-02",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673997000,
+			"date_modified": null
+		},
+		"geometry": {
+			"x": 4.7724399251144556,
+			"y": 52.309382716907244
+		}
+	}, {
+		"attributes": {
+			"objectid": 1263,
+			"reference": "DP-02-RD84-05",
+			"verdieping": 20,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "D84",
+			"description": null,
+			"tags": "D84, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "DP-NOORDEXTENSIE-02",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673997000,
+			"date_modified": null
+		},
+		"geometry": {
+			"x": 4.7729953194700734,
+			"y": 52.309363402893993
+		}
+	}, {
+		"attributes": {
+			"objectid": 1269,
+			"reference": "DP-02-RD78-05",
+			"verdieping": 20,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "D78",
+			"description": null,
+			"tags": "D78, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "DP-NOORDEXTENSIE-02",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673991000,
+			"date_modified": null
+		},
+		"geometry": {
+			"x": 4.771887220915346,
+			"y": 52.309401934452346
+		}
+	}, {
+		"attributes": {
+			"objectid": 1270,
+			"reference": "DP-02-RD83-05",
+			"verdieping": 20,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "D83",
+			"description": null,
+			"tags": "D83, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "DP-NOORDEXTENSIE-02",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673991000,
+			"date_modified": null
+		},
+		"geometry": {
+			"x": 4.7718681731726384,
+			"y": 52.309535827592022
+		}
+	}, {
+		"attributes": {
+			"objectid": 1271,
+			"reference": "DP-02-RD85-05",
+			"verdieping": 20,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "D85",
+			"description": null,
+			"tags": "D85, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "DP-NOORDEXTENSIE-02",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673991000,
+			"date_modified": null
+		},
+		"geometry": {
+			"x": 4.7731178229616864,
+			"y": 52.309494951885277
+		}
+	}, {
+		"attributes": {
+			"objectid": 1272,
+			"reference": "DP-02-RD76-05",
+			"verdieping": 20,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "D76",
+			"description": null,
+			"tags": "D76, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "DP-NOORDEXTENSIE-02",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673992000,
+			"date_modified": null
+		},
+		"geometry": {
+			"x": 4.7713315952795012,
+			"y": 52.30942125194602
+		}
+	}, {
+		"attributes": {
+			"objectid": 1273,
+			"reference": "DP-02-RD72-05",
+			"verdieping": 20,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "D72",
+			"description": null,
+			"tags": "D72, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "DP-NOORDEXTENSIE-02",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673992000,
+			"date_modified": null
+		},
+		"geometry": {
+			"x": 4.7702725886940707,
+			"y": 52.309455716975414
+		}
+	}, {
+		"attributes": {
+			"objectid": 1274,
+			"reference": "DP-02-RD86-05",
+			"verdieping": 20,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "D86",
+			"description": null,
+			"tags": "D86, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "DP-NOORDEXTENSIE-02",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673992000,
+			"date_modified": null
+		},
+		"geometry": {
+			"x": 4.7734778933800985,
+			"y": 52.309347165216181
+		}
+	}, {
+		"attributes": {
+			"objectid": 1275,
+			"reference": "DP-02-R2338",
+			"verdieping": 20,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "D77",
+			"description": null,
+			"tags": "D77, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "DP-NOORDEXTENSIE-02",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673992000,
+			"date_modified": null
+		},
+		"geometry": {
+			"x": 4.7700299311059187,
+			"y": 52.309640436497567
+		}
+	}, {
+		"attributes": {
+			"objectid": 1276,
+			"reference": "DP-02-RD74-05",
+			"verdieping": 20,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "D74",
+			"description": null,
+			"tags": "D74, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "DP-NOORDEXTENSIE-02",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673992000,
+			"date_modified": null
+		},
+		"geometry": {
+			"x": 4.7707788274270735,
+			"y": 52.309440334555937
+		}
+	}, {
+		"attributes": {
+			"objectid": 1278,
+			"reference": "DP-02-RD79-05",
+			"verdieping": 20,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "D79",
+			"description": null,
+			"tags": "D79, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "DP-NOORDEXTENSIE-02",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673992000,
+			"date_modified": null
+		},
+		"geometry": {
+			"x": 4.7704590435460403,
+			"y": 52.30958778651663
+		}
+	}, {
+		"attributes": {
+			"objectid": 1358,
+			"reference": "AG-10160-HP-01",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "M05",
+			"description": "H/M05",
+			"tags": "M05, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "M-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 1,
+			"searchable": 1,
+			"auto_update": 0,
+			"date_created": 1490140800000,
+			"date_modified": 1490140800000
+		},
+		"geometry": {
+			"x": 4.7542618759528308,
+			"y": 52.309736028706581
+		}
+	}, {
+		"attributes": {
+			"objectid": 1361,
+			"reference": "AG-10180-HP-01",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "M06",
+			"description": "H/M06",
+			"tags": "M06, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "M-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 1,
+			"searchable": 1,
+			"auto_update": 0,
+			"date_created": 1490140800000,
+			"date_modified": 1490140800000
+		},
+		"geometry": {
+			"x": 4.753719336485168,
+			"y": 52.309526435964457
+		}
+	}, {
+		"attributes": {
+			"objectid": 1403,
+			"reference": "DP-01-RD41-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "D41",
+			"description": null,
+			"tags": "D41, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "DP-STEEL-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673993000,
+			"date_modified": 1499340511000
+		},
+		"geometry": {
+			"x": 4.7693212324299568,
+			"y": 52.309089668588584
+		}
+	}, {
+		"attributes": {
+			"objectid": 1404,
+			"reference": "DP-01-RD07-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "D07",
+			"description": null,
+			"tags": "D07, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "DP-STEEL-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673992000,
+			"date_modified": null
+		},
+		"geometry": {
+			"x": 4.7678302406444892,
+			"y": 52.308769267821198
+		}
+	}, {
+		"attributes": {
+			"objectid": 1421,
+			"reference": "CP-01-RC3-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "C05",
+			"description": null,
+			"tags": "C05, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "C-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673997000,
+			"date_modified": null
+		},
+		"geometry": {
+			"x": 4.7652225446810128,
+			"y": 52.306581196810576
+		}
+	}, {
+		"attributes": {
+			"objectid": 1424,
+			"reference": "CP-01-RC15-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "C15",
+			"description": null,
+			"tags": "C15, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "C-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673999000,
+			"date_modified": 1498634126000
+		},
+		"geometry": {
+			"x": 4.7666557258153102,
+			"y": 52.305179031392626
+		}
+	}, {
+		"attributes": {
+			"objectid": 1649,
+			"reference": "DP-02-R2106",
+			"verdieping": 20,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "D59",
+			"description": null,
+			"tags": "D59, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "DP-STEEL-02",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673991000,
+			"date_modified": null
+		},
+		"geometry": {
+			"x": 4.7660641011470775,
+			"y": 52.308793645759714
+		}
+	}, {
+		"attributes": {
+			"objectid": 1650,
+			"reference": "DP-02-R2324",
+			"verdieping": 20,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "D73",
+			"description": null,
+			"tags": "D73, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "DP-STEEL-02",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673991000,
+			"date_modified": 1484639153000
+		},
+		"geometry": {
+			"x": 4.7695433883847498,
+			"y": 52.309261827784759
+		}
+	}, {
+		"attributes": {
+			"objectid": 1651,
+			"reference": "DP-02-R2203",
+			"verdieping": 20,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "D62",
+			"description": null,
+			"tags": "D62, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "DP-STEEL-02",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673991000,
+			"date_modified": null
+		},
+		"geometry": {
+			"x": 4.7674055132424185,
+			"y": 52.308453984277143
+		}
+	}, {
+		"attributes": {
+			"objectid": 1652,
+			"reference": "DP-02-R2306",
+			"verdieping": 20,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "D71",
+			"description": null,
+			"tags": "D71, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "DP-STEEL-02",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673992000,
+			"date_modified": 1501498549000
+		},
+		"geometry": {
+			"x": 4.7690939011757818,
+			"y": 52.308912509822505
+		}
+	}, {
+		"attributes": {
+			"objectid": 1653,
+			"reference": "DP-02-R2121",
+			"verdieping": 20,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "D60",
+			"description": null,
+			"tags": "D60, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "DP-STEEL-02",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673992000,
+			"date_modified": 1484639153000
+		},
+		"geometry": {
+			"x": 4.766680865030084,
+			"y": 52.308479153008697
+		}
+	}, {
+		"attributes": {
+			"objectid": 1654,
+			"reference": "DP-02-R2122",
+			"verdieping": 20,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "D61",
+			"description": null,
+			"tags": "D61, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "DP-STEEL-02",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673992000,
+			"date_modified": null
+		},
+		"geometry": {
+			"x": 4.7667887606295718,
+			"y": 52.308768481768396
+		}
+	}, {
+		"attributes": {
+			"objectid": 1655,
+			"reference": "DP-02-R2217",
+			"verdieping": 20,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "D64",
+			"description": null,
+			"tags": "D64, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "DP-STEEL-02",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673992000,
+			"date_modified": null
+		},
+		"geometry": {
+			"x": 4.7681301649528205,
+			"y": 52.308428818315548
+		}
+	}, {
+		"attributes": {
+			"objectid": 1656,
+			"reference": "DP-02-R2641",
+			"verdieping": 20,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "D68",
+			"description": null,
+			"tags": "D68, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "DP-STEEL-02",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673992000,
+			"date_modified": null
+		},
+		"geometry": {
+			"x": 4.7696212875393202,
+			"y": 52.307583305853228
+		}
+	}, {
+		"attributes": {
+			"objectid": 1664,
+			"reference": "DP-02-R2617",
+			"verdieping": 20,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "D66",
+			"description": null,
+			"tags": "D66, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "DP-STEEL-02",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673997000,
+			"date_modified": null
+		},
+		"geometry": {
+			"x": 4.7693029623225467,
+			"y": 52.307898546368214
+		}
+	}, {
+		"attributes": {
+			"objectid": 1670,
+			"reference": "DP-02-R2202",
+			"verdieping": 20,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "D63",
+			"description": null,
+			"tags": "D63, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "DP-STEEL-02",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673997000,
+			"date_modified": null
+		},
+		"geometry": {
+			"x": 4.7675134179784004,
+			"y": 52.308743306116263
+		}
+	}, {
+		"attributes": {
+			"objectid": 1682,
+			"reference": "DP-01-RD12-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "D12",
+			"description": null,
+			"tags": "D12, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "DP-STEEL-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673991000,
+			"date_modified": 1502703469000
+		},
+		"geometry": {
+			"x": 4.769474293469794,
+			"y": 52.307729195414502
+		}
+	}, {
+		"attributes": {
+			"objectid": 1684,
+			"reference": "DP-01-RD08-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "D08",
+			"description": null,
+			"tags": "D08, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "DP-STEEL-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673991000,
+			"date_modified": 1505724549000
+		},
+		"geometry": {
+			"x": 4.7677435538444897,
+			"y": 52.308408654940521
+		}
+	}, {
+		"attributes": {
+			"objectid": 1694,
+			"reference": "CP-01-RC9-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "C09",
+			"description": null,
+			"tags": "C09, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "C-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673999000,
+			"date_modified": 1498634126000
+		},
+		"geometry": {
+			"x": 4.7666790402629564,
+			"y": 52.305389792138683
+		}
+	}, {
+		"attributes": {
+			"objectid": 1767,
+			"reference": "EP-01-RE20-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "E20",
+			"description": null,
+			"tags": "E20, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "E-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673991000,
+			"date_modified": 1496908733000
+		},
+		"geometry": {
+			"x": 4.768381492476327,
+			"y": 52.313235294505205
+		}
+	}, {
+		"attributes": {
+			"objectid": 1778,
+			"reference": "DP-01-RD10-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "D10",
+			"description": null,
+			"tags": "D10, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "DP_PASSBRUG-01",
+			"timewindowstart": 1497225600000,
+			"timewindowend": 253402214400000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1497254860000,
+			"date_modified": null
+		},
+		"geometry": {
+			"x": 4.7691560417077969,
+			"y": 52.308044381090234
+		}
+	}, {
+		"attributes": {
+			"objectid": 1824,
+			"reference": "DP-01-RD05-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "D05",
+			"description": null,
+			"tags": "D05, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "DP-STEEL-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673992000,
+			"date_modified": 1496908733000
+		},
+		"geometry": {
+			"x": 4.7671570733290274,
+			"y": 52.30877895687162
+		}
+	}, {
+		"attributes": {
+			"objectid": 1871,
+			"reference": "FP-01-RF8-04",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "F08",
+			"description": null,
+			"tags": "F08, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "F-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673991000,
+			"date_modified": 1484639153000
+		},
+		"geometry": {
+			"x": 4.7620766914704351,
+			"y": 52.313066242819453
+		}
+	}, {
+		"attributes": {
+			"objectid": 1872,
+			"reference": "FP-01-RF6-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "F06",
+			"description": null,
+			"tags": "F06, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "F-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673991000,
+			"date_modified": 1496908733000
+		},
+		"geometry": {
+			"x": 4.7622952314210663,
+			"y": 52.313014879501701
+		}
+	}, {
+		"attributes": {
+			"objectid": 1873,
+			"reference": "FP-01-RF4-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "F04",
+			"description": null,
+			"tags": "F04, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "F-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673992000,
+			"date_modified": 1496908733000
+		},
+		"geometry": {
+			"x": 4.7620345950631888,
+			"y": 52.312331384068585
+		}
+	}, {
+		"attributes": {
+			"objectid": 1885,
+			"reference": "DP-01-RD56-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "D56",
+			"description": null,
+			"tags": "D56, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "DP-NOORDEXTENSIE-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673992000,
+			"date_modified": 1496908733000
+		},
+		"geometry": {
+			"x": 4.773718420337504,
+			"y": 52.309320233211345
+		}
+	}, {
+		"attributes": {
+			"objectid": 1902,
+			"reference": "DP-01-R1051",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "D06",
+			"description": null,
+			"tags": "D06, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "DP-STEEL-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 1,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673996000,
+			"date_modified": 1505724549000
+		},
+		"geometry": {
+			"x": 4.7672702762431616,
+			"y": 52.308542660109936
+		}
+	}, {
+		"attributes": {
+			"objectid": 1935,
+			"reference": "DP-01-RD03-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "D03",
+			"description": null,
+			"tags": "D03, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "DP-STEEL-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673991000,
+			"date_modified": 1484639153000
+		},
+		"geometry": {
+			"x": 4.7664001018184559,
+			"y": 52.308807650280563
+		}
+	}, {
+		"attributes": {
+			"objectid": 1963,
+			"reference": "CP-01-RC18-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "C18",
+			"description": null,
+			"tags": "C18, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "C-PIER-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480673991000,
+			"date_modified": 1497884106000
+		},
+		"geometry": {
+			"x": 4.7664804900865256,
+			"y": 52.305113612089656
+		}
+	}, {
+		"attributes": {
+			"objectid": 2038,
+			"reference": "EP-01-RE2-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "E02",
+			"description": null,
+			"tags": "E02, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "E-PIER-01",
+			"timewindowstart": 1498608000000,
+			"timewindowend": 253402214400000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1498634126000,
+			"date_modified": null
+		},
+		"geometry": {
+			"x": 4.7654940996911161,
+			"y": 52.310583205787296
+		}
+	}, {
+		"attributes": {
+			"objectid": 2252,
+			"reference": "EP-01-RE18-03",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "E18",
+			"description": null,
+			"tags": "Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "E-PIER-01",
+			"timewindowstart": 1499644800000,
+			"timewindowend": 253402214400000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480674106000,
+			"date_modified": 1499340511000
+		},
+		"geometry": {
+			"x": 4.7677163994528211,
+			"y": 52.312478057647382
+		}
+	}, {
+		"attributes": {
+			"objectid": 2253,
+			"reference": "GP-01-RG3-03",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "G03",
+			"description": null,
+			"tags": "Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "G-PIER-01",
+			"timewindowstart": 1499644800000,
+			"timewindowend": 253402214400000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480674128000,
+			"date_modified": 1499340511000
+		},
+		"geometry": {
+			"x": 4.7569118688920424,
+			"y": 52.311730276273259
+		}
+	}, {
+		"attributes": {
+			"objectid": 2254,
+			"reference": "GP-01-RG9-03",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "G09",
+			"description": null,
+			"tags": "Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "G-PIER-01",
+			"timewindowstart": 1499644800000,
+			"timewindowend": 253402214400000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480674112000,
+			"date_modified": 1499340511000
+		},
+		"geometry": {
+			"x": 4.7567579718621946,
+			"y": 52.313619984553306
+		}
+	}, {
+		"attributes": {
+			"objectid": 2567,
+			"reference": "DP-01-RD42-01",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "D42",
+			"description": null,
+			"tags": "D42, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "DP-NOORDEXTENSIE-01",
+			"timewindowstart": 1474848000000,
+			"timewindowend": 4094064000000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1480674046000,
+			"date_modified": null
+		},
+		"geometry": {
+			"x": 4.7701610047397827,
+			"y": 52.309325553969522
+		}
+	}, {
+		"attributes": {
+			"objectid": 2571,
+			"reference": "EP-01-RE22-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "E22",
+			"description": null,
+			"tags": "E22, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "E-PIER-01",
+			"timewindowstart": 1505692800000,
+			"timewindowend": 253402214400000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1505724549000,
+			"date_modified": null
+		},
+		"geometry": {
+			"x": 4.7688438444429249,
+			"y": 52.313661404297541
+		}
+	}, {
+		"attributes": {
+			"objectid": 2900,
+			"reference": "EP-01-RE24-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "E24",
+			"description": null,
+			"tags": "E24, Gate Vertrekkend",
+			"airside_landside": "Airside",
+			"sublocation": "E-PIER-01",
+			"timewindowstart": 1506297600000,
+			"timewindowend": 253402214400000,
+			"visible": 0,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1506341001000,
+			"date_modified": null
+		},
+		"geometry": {
+			"x": 4.7689123845851409,
+			"y": 52.314141385228879
+		}
+	}, {
+		"attributes": {
+			"objectid": 2908,
+			"reference": "DP-00-R0138",
+			"verdieping": 0,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "D06",
+			"description": null,
+			"tags": "D06, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "D-PIER-00",
+			"timewindowstart": 1508284800000,
+			"timewindowend": 253402214400000,
+			"visible": 0,
+			"searchable": 0,
+			"auto_update": 1,
+			"date_created": 1480674060000,
+			"date_modified": 1496908733000
+		},
+		"geometry": {
+			"x": 4.7674246371375322,
+			"y": 52.308618680527807
+		}
+	}, {
+		"attributes": {
+			"objectid": 3206,
+			"reference": "AG-11500-CP-01",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "C21/24",
+			"description": null,
+			"tags": "C21/24, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "C-PIER-01",
+			"timewindowstart": 1508284800000,
+			"timewindowend": 253402214400000,
+			"visible": 1,
+			"searchable": 1,
+			"auto_update": 0,
+			"date_created": null,
+			"date_modified": null
+		},
+		"geometry": {
+			"x": 4.7649449607734242,
+			"y": 52.306651985963398
+		}
+	}, {
+		"attributes": {
+			"objectid": 3207,
+			"reference": "AG-11510-BP-01",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "B01/08",
+			"description": null,
+			"tags": "B01/08, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "B-PIER-01",
+			"timewindowstart": 1508284800000,
+			"timewindowend": 253402214400000,
+			"visible": 1,
+			"searchable": 1,
+			"auto_update": 0,
+			"date_created": null,
+			"date_modified": null
+		},
+		"geometry": {
+			"x": 4.7613214801326853,
+			"y": 52.305122578588772
+		}
+	}, {
+		"attributes": {
+			"objectid": 3208,
+			"reference": "AG-11520-GP-01",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "G11/16",
+			"description": null,
+			"tags": "G11/16, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "G-PIER-01",
+			"timewindowstart": 1508284800000,
+			"timewindowend": 253402214400000,
+			"visible": 1,
+			"searchable": 1,
+			"auto_update": 0,
+			"date_created": null,
+			"date_modified": null
+		},
+		"geometry": {
+			"x": 4.7571424367870154,
+			"y": 52.311223018383501
+		}
+	}, {
+		"attributes": {
+			"objectid": 3218,
+			"reference": "EP-01-RE3-05",
+			"verdieping": 10,
+			"category": 50,
+			"subcategory": "Departing Gate",
+			"name": "E03",
+			"description": null,
+			"tags": "E03, Departing Gate",
+			"airside_landside": "Airside",
+			"sublocation": "E-PIER-01",
+			"timewindowstart": 1508371200000,
+			"timewindowend": 253402214400000,
+			"visible": 1,
+			"searchable": 1,
+			"auto_update": 1,
+			"date_created": 1508205600000,
+			"date_modified": null
+		},
+		"geometry": {
+			"x": 4.7653744803643523,
+			"y": 52.310789936485982
+		}
+	}]
+}

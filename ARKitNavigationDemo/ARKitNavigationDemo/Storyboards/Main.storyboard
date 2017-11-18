@@ -152,10 +152,10 @@
             </objects>
             <point key="canvasLocation" x="376.80000000000001" y="130.88455772113943"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Main Navigation Controller-->
         <scene sceneID="OVa-0M-Ylv">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="JJN-GX-W93" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="JJN-GX-W93" customClass="MainNavigationController" customModule="ARKitNavigationDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="4PS-5m-Hdx">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>

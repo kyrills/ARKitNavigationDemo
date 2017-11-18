@@ -30,7 +30,7 @@ class TestCoordinatorViewController: UIViewController {
         super.viewDidLoad()
         setGradient()
 
-        // Do any additional setup after loading the view.
+ 
     }
     
     

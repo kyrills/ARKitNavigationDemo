@@ -1,24 +1,40 @@
 //
-//  TEstCoordinatorViewController.swift
+//  MainNavigationController.swift
 //  ARKitNavigationDemo
 //
-//  Created by Ben Smith on 17/11/2017.
+//  Created by Ivo Nederlof on 17-11-17.
 //  Copyright © 2017 Christopher Webb-Orenstein. All rights reserved.
 //
 
 import UIKit
 
 class MainNavigationController: UINavigationController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.navigationBar.setBackgroundImage(UIImage(), for: UIBarMetrics.default)
+        self.navigationBar.setBackgroundImage(UIImage(), for: .default)
         self.navigationBar.shadowImage = UIImage()
-        self.navigationBar.isTranslucent = false
-        self.navigationBar.barTintColor = .clear
+        self.navigationBar.backgroundColor = .clear
         self.navigationBar.tintColor = .white
-        self.navigationBar.backgroundColor = UIColor.clear
-
+        self.navigationBar.isTranslucent = true
     }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+    
+    
+    /*
+     // MARK: - Navigation
+     
+     // In a storyboard-based application, you will often want to do a little preparation before navigation
+     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+     // Get the new view controller using segue.destinationViewController.
+     // Pass the selected object to the new view controller.
+     }
+     */
+    
 }
+

@@ -11,8 +11,10 @@ import UIKit
 
 class TestCoordinatorViewController: UIViewController {
     
+//    var whenToBoService = SchipholWhenToBeService()
+    
     @IBOutlet weak var flightNumberoutlet: UITextField!
-    @IBOutlet weak var flightDateoutlet: UITextField!
+ 
     @IBOutlet var addItemView : UIView!
     @IBOutlet weak var visualEffectView: UIVisualEffectView!
     @IBOutlet var timeLabel: UILabel!
@@ -50,11 +52,19 @@ class TestCoordinatorViewController: UIViewController {
     }
     
     @IBAction func didPressFlight(_ sender: Any) {
-        animateBlurout()
-        self.visualEffectView.isHidden = true
-//        if let flightNumber = flightNumberoutlet {
-//            self.flightNumberLabel.text = flightNumber.text
-//        }
+        if let isFlightNumber = flightNumberoutlet.text {
+            SchipholWhenToBeService.checkWhentoBeAtSChiphol(flightNumber: isFlightNumber, onCompletion: { (success, data) in
+                if success {
+                    print(data)
+                } else {
+                    print("fuck something went wrong")
+                }
+            })
+            
+            animateBlurout()
+            self.visualEffectView.isHidden = true
+            
+        }
     }
     
     @IBAction func didPressChangeFlight(_ sender: Any) {
@@ -107,13 +117,11 @@ extension TestCoordinatorViewController: UITextFieldDelegate {
     
     func setupTextField() {
         flightNumberoutlet.delegate = self
-        flightDateoutlet.delegate = self
      }
     
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         flightNumberoutlet.resignFirstResponder()
-        flightDateoutlet.resignFirstResponder()
         return true
     }
     

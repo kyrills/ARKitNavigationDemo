@@ -198,7 +198,6 @@
                     <connections>
                         <outlet property="addItemView" destination="C9i-Yi-gqj" id="qPO-RX-oi0"/>
                         <outlet property="contentContainer" destination="LXd-5u-597" id="1tJ-u3-qoF"/>
-                        <outlet property="flightDateoutlet" destination="ltk-h3-LWS" id="5gd-dx-7c3"/>
                         <outlet property="flightNumberLabel" destination="R7u-je-Yl2" id="geu-dj-Yix"/>
                         <outlet property="flightNumberoutlet" destination="47b-vV-Ivt" id="UOS-ds-N9v"/>
                         <outlet property="timeLabel" destination="79h-Ql-ULs" id="nI7-30-u2g"/>
@@ -207,11 +206,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="A4t-1A-Ib5" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <view contentMode="scaleToFill" id="C9i-Yi-gqj" userLabel="popUpView" customClass="addItemView">
-                    <rect key="frame" x="0.0" y="0.0" width="314" height="247"/>
+                    <rect key="frame" x="0.0" y="0.0" width="314" height="199"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <subviews>
                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="nte-37-xvw">
-                            <rect key="frame" x="5" y="5" width="304" height="237"/>
+                            <rect key="frame" x="5" y="5" width="304" height="189"/>
                             <subviews>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MEv-ui-s4B">
                                     <rect key="frame" x="0.0" y="0.0" width="304" height="70"/>
@@ -251,30 +250,11 @@
                                         <constraint firstAttribute="bottom" secondItem="47b-vV-Ivt" secondAttribute="bottom" constant="5" id="fT2-Ax-UmK"/>
                                     </constraints>
                                 </view>
-                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iZa-Lf-t2t">
-                                    <rect key="frame" x="0.0" y="125" width="304" height="55"/>
-                                    <subviews>
-                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Date" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ltk-h3-LWS">
-                                            <rect key="frame" x="5" y="5" width="294" height="45"/>
-                                            <nil key="textColor"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                            <textInputTraits key="textInputTraits"/>
-                                        </textField>
-                                    </subviews>
-                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <constraints>
-                                        <constraint firstItem="ltk-h3-LWS" firstAttribute="top" secondItem="iZa-Lf-t2t" secondAttribute="top" constant="5" id="ALi-uf-d8z"/>
-                                        <constraint firstAttribute="trailing" secondItem="ltk-h3-LWS" secondAttribute="trailing" constant="5" id="Vz7-nh-9xi"/>
-                                        <constraint firstItem="ltk-h3-LWS" firstAttribute="leading" secondItem="iZa-Lf-t2t" secondAttribute="leading" constant="5" id="cyf-oj-MhI"/>
-                                        <constraint firstAttribute="height" constant="55" id="ehu-Cx-2fn"/>
-                                        <constraint firstAttribute="bottom" secondItem="ltk-h3-LWS" secondAttribute="bottom" constant="5" id="ydS-lE-079"/>
-                                    </constraints>
-                                </view>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bkg-NT-omc">
-                                    <rect key="frame" x="0.0" y="180" width="304" height="57"/>
+                                    <rect key="frame" x="0.0" y="125" width="304" height="64"/>
                                     <subviews>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uoF-Bu-eyh">
-                                            <rect key="frame" x="5" y="5" width="294" height="47"/>
+                                            <rect key="frame" x="5" y="5" width="294" height="54"/>
                                             <color key="backgroundColor" red="0.0" green="0.40000000000000002" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
                                             <state key="normal" title="start">
                                                 <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

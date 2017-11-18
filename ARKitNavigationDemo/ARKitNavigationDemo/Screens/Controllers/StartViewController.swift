@@ -31,7 +31,7 @@ final class StartViewController: UIViewController, Controller {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-        SchipholWhenToBeService.checkWhentoBeAtSChiphol(flightNumber: "")
+//        SchipholWhenToBeService.checkWhentoBeAtSChiphol(flightNumber: )
 
         WayFindingSchipholService.parseRout()
         if ARConfiguration.isSupported {

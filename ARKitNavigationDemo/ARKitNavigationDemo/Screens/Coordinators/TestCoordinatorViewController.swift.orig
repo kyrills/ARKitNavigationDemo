@@ -6,7 +6,6 @@
 //  Copyright © 2017 Christopher Webb-Orenstein. All rights reserved.
 //
 
-
 import UIKit
 
 class TestCoordinatorViewController: UIViewController {
@@ -17,10 +16,7 @@ class TestCoordinatorViewController: UIViewController {
  
     @IBOutlet var addItemView : UIView!
     @IBOutlet weak var visualEffectView: UIVisualEffectView!
-    @IBOutlet var timeLabel: UILabel!
-    @IBOutlet var flightNumberLabel: UILabel!
     
-    @IBOutlet var contentContainer: UIStackView!
     var progressView: UIProgressView?
     var progressLabel: UILabel?
     var effect: UIVisualEffect!
@@ -29,11 +25,28 @@ class TestCoordinatorViewController: UIViewController {
         origin: CGPoint(x: -25, y: -100),
         size: UIScreen.main.bounds.size
     )
+    
+    override func viewDidAppear(_ _animated: Bool) {
+        super.viewDidAppear(_animated)
+        effect = visualEffectView.effect
+        visualEffectView.effect = nil
 
+        addItemView.layer.cornerRadius = 5
+        self.animeteBlurIn()
+   
+    }
+ 
+    
+    @IBAction func didPressFlight(_ sender: Any) {
+        animateBlurout()
+    }
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        setGradient()
-        setupTextField()
+        
+
     }
     
     
@@ -43,27 +56,19 @@ class TestCoordinatorViewController: UIViewController {
         visualEffectView.effect = nil
         addItemView.layer.cornerRadius = 5
         self.animeteBlurIn()
-        self.visualEffectView.isHidden = false
         
-    }
-    @IBAction func startAR(_ sender: Any) {
-        print("start AR")
     }
     
     @IBAction func didPressFlight(_ sender: Any) {
+<<<<<<< HEAD
+        animateBlurout()
+=======
         if let isFlightNumber = flightNumberoutlet.text {
-            SchipholWhenToBeService.checkWhentoBeAtSChiphol(flightNumber: isFlightNumber, onCompletion: { (success, rectTime) in
+            SchipholWhenToBeService.checkWhentoBeAtSChiphol(flightNumber: isFlightNumber, onCompletion: { (success, data) in
                 if success {
-//                    if let time = rectTime {
-//
-//                        let formatter = DateFormatter()
-//                        formatter.dateFormat = "YYYY-MM-DDTHH:mm:SS"
-//                        let date = formatter.date(from: time)
-//                        self.timeLabel.text = self.printTimestamp(date: date!)
-//                    }
-           
+                    print(data)
                 } else {
-                    print("f*k something went wrong")
+                    print("fuck something went wrong")
                 }
             })
             
@@ -72,22 +77,18 @@ class TestCoordinatorViewController: UIViewController {
             
         }
     }
- 
-    func printTimestamp(date: Date) -> String {
-        let formatter = DateFormatter()
-        formatter.dateFormat = "HH:mm"
-        return formatter.string(from: date)
-    }
     
     @IBAction func didPressChangeFlight(_ sender: Any) {
         animeteBlurIn()
         flightNumberoutlet.becomeFirstResponder()
         self.visualEffectView.isHidden = false
+>>>>>>> team2/dev
     }
     
     func animeteBlurIn() {
         self.view.addSubview(addItemView)
         addItemView.center = self.view.center
+        
         addItemView.transform = CGAffineTransform.init(scaleX: 1.3, y: 1.3)
         addItemView.alpha = 0
         
@@ -108,7 +109,7 @@ class TestCoordinatorViewController: UIViewController {
         }) { (succes:Bool) in
             self.addItemView.removeFromSuperview()
         }
-    }
+
 }
 
 
@@ -122,6 +123,8 @@ extension TestCoordinatorViewController {
         self.view.layer.insertSublayer(gradientLayer, at: 0)
     }
 }
+<<<<<<< HEAD
+=======
 
 
 // MARK: - INPUT
@@ -149,3 +152,4 @@ extension TestCoordinatorViewController: UITextFieldDelegate {
 extension TestCoordinatorViewController {
     
 }
+>>>>>>> team2/dev

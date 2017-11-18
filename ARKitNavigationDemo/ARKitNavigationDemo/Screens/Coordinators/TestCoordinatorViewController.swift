@@ -38,7 +38,6 @@ class TestCoordinatorViewController: UIViewController {
         super.viewDidAppear(_animated)
         effect = visualEffectView.effect
         visualEffectView.effect = nil
-        
         addItemView.layer.cornerRadius = 5
         self.animeteBlurIn()
         

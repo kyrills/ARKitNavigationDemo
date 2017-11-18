@@ -9,36 +9,30 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Est Coordinator View Controller-->
+        <!--Test Coordinator View Controller-->
         <scene sceneID="Pt2-o2-cjC">
             <objects>
-                <viewController storyboardIdentifier="testID" id="TaD-a2-Amn" customClass="TEstCoordinatorViewController" customModule="ARKitNavigationDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="testID" id="TaD-a2-Amn" customClass="TestCoordinatorViewController" customModule="ARKitNavigationDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gKs-Qa-e5T">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fM1-ga-1Hj">
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BZO-2F-WQh">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" id="rKM-kM-ffO">
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="E4D-SE-0mp">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                    <subviews>
-                                        <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yC6-dO-hXs">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" id="fRj-WY-fXA">
-                                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                            </view>
-                                            <blurEffect style="light"/>
-                                        </visualEffectView>
-                                    </subviews>
                                 </view>
                                 <blurEffect style="light"/>
                             </visualEffectView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="BZO-2F-WQh" firstAttribute="bottom" secondItem="vFH-m2-fIW" secondAttribute="bottom" id="75X-l4-qmX"/>
+                            <constraint firstItem="BZO-2F-WQh" firstAttribute="trailing" secondItem="vFH-m2-fIW" secondAttribute="trailing" id="8Tw-Sq-D0K"/>
+                            <constraint firstItem="BZO-2F-WQh" firstAttribute="leading" secondItem="vFH-m2-fIW" secondAttribute="leading" id="AbP-kh-ADI"/>
+                            <constraint firstItem="BZO-2F-WQh" firstAttribute="top" secondItem="gKs-Qa-e5T" secondAttribute="top" id="GnW-9G-8AW"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="vFH-m2-fIW"/>
                     </view>
                     <navigationItem key="navigationItem" id="l8W-Pl-tin">
@@ -53,11 +47,11 @@
                         <outlet property="addItemView" destination="C9i-Yi-gqj" id="qPO-RX-oi0"/>
                         <outlet property="flightDateoutlet" destination="ltk-h3-LWS" id="5gd-dx-7c3"/>
                         <outlet property="flightNumberoutlet" destination="47b-vV-Ivt" id="UOS-ds-N9v"/>
-                        <outlet property="visualEffectView" destination="yC6-dO-hXs" id="G7G-c8-f0a"/>
+                        <outlet property="visualEffectView" destination="BZO-2F-WQh" id="Bvx-e9-ktm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="A4t-1A-Ib5" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <view contentMode="scaleToFill" id="C9i-Yi-gqj" userLabel="popUpView">
+                <view contentMode="scaleToFill" id="C9i-Yi-gqj" userLabel="popUpView" customClass="addItemView">
                     <rect key="frame" x="0.0" y="0.0" width="240" height="266"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <subviews>
@@ -146,7 +140,7 @@
                             </subviews>
                         </stackView>
                     </subviews>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstItem="nte-37-xvw" firstAttribute="leading" secondItem="soQ-Ff-bPf" secondAttribute="leading" constant="5" id="4pF-Or-T77"/>
                         <constraint firstItem="soQ-Ff-bPf" firstAttribute="bottom" secondItem="nte-37-xvw" secondAttribute="bottom" constant="5" id="Unc-qC-Li7"/>

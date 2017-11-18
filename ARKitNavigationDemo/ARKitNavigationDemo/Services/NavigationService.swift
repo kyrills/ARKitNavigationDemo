@@ -40,14 +40,21 @@ struct NavigationService {
         var segments = [LineSegment]()
         var startArr = pointsArrays[0]
         for i in 1..<pointsArrays.count {
-            let lat1 = startArr[0] as! Double
-            let lng1 = startArr[1] as! Double
+            let lat1 = startArr[1] as! Double
+            let lng1 = startArr[0] as! Double
             let alt1 = startArr[2] as! Double
             var endArr = pointsArrays[i]
-            let lat2 = endArr[0] as! Double
-            let lng2 = endArr[1] as! Double
+            let lat2 = endArr[1] as! Double
+            let lng2 = endArr[0] as! Double
             let alt2 = endArr[2] as! Double
-            let segment = LineSegment(lat1: lat1, long1: lng1, alt1: alt1, lat2: lat2, long2: lng2, alt2: alt2)
+
+            let segment = LineSegment(lat1: lat1,
+                                      long1: lng1,
+                                      alt1: alt1,
+                                      lat2: lat2,
+                                      long2: lng2,
+                                      alt2: alt2)
+
             segments.append(segment)
             startArr = endArr
         }

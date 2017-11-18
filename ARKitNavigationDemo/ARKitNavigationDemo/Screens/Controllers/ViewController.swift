@@ -45,6 +45,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         mapView.delegate = self
+        
+        self.startingLocation = CLLocation.init(latitude: 52.3101057, longitude: 4.7624165)
         setupScene()
         setupLocationService()
         setupNavigation()
@@ -62,15 +64,27 @@ extension ViewController: Controller {
         locationService.delegate = self
     }
     
+//    let lineSegments: [LineSegment] = []
     private func setupNavigation() {
-        if locationData != nil {
-            steps.append(contentsOf: locationData.steps)
-            currentLegs.append(contentsOf: locationData.legs)
-            let coordinates = currentLegs.flatMap { $0 }
-            locations = coordinates.map { CLLocation(latitude: $0.latitude, longitude: $0.longitude) }
-            annotations.append(contentsOf: annotations)
-            destinationLocation = locationData.destinationLocation.coordinate
-        }
+            WayFindingSchipholService.parseRout(completion: { (lineSegments) in
+//                self.lineSegments = lineSegments
+                for segment in lineSegments {
+                    self.addSphere(for: segment.end)
+//                    self.addSphere(for: segment.start)
+
+                }
+//                locationData = LocationData(destinationLocation:startingLocation,
+//                                            annotations: route,
+//                                            legs: legs,
+//                                            steps: steps)
+            })
+//                locationData = LocationData(destinationLocation:startingLocation,
+//                                            annotations: route,
+//                                            legs: legs,
+//                                            steps: steps)
+
+//            steps.append(contentsOf: locationData.steps)
+
         done = true
     }
     
@@ -162,7 +176,7 @@ extension ViewController: MessagePresenting {
     
     private func addSphere(for step: MKRouteStep) {
         let stepLocation = step.getLocation()
-        let locationTransform = MatrixHelper.transformMatrix(for: matrix_identity_float4x4, originLocation: startingLocation, location: stepLocation)
+        let locationTransform = MatrixHelper.transformMatrix(for: matrix_identity_float4x4, originLocation: CLLocation.init(latitude: 52.3101057,longitude: 4.7624165), location: stepLocation)
         let stepAnchor = ARAnchor(transform: locationTransform)
         let sphere = BaseNode(title: step.instructions, location: stepLocation)
         anchors.append(stepAnchor)

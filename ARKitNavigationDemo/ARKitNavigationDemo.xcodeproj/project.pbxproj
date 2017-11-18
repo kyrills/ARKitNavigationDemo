@@ -26,6 +26,8 @@
 		902B9F5E1FBF7A9900E5E4C1 /* routeSchipolString.txt in Resources */ = {isa = PBXBuildFile; fileRef = 902B9F5D1FBF7A9900E5E4C1 /* routeSchipolString.txt */; };
 		902B9F601FBF7D1B00E5E4C1 /* WayFindingSchipholService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902B9F5F1FBF7D1B00E5E4C1 /* WayFindingSchipholService.swift */; };
 		902B9F641FBF83EF00E5E4C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 902B9F631FBF83EF00E5E4C1 /* Main.storyboard */; };
+		902B9F661FC0367300E5E4C1 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 902B9F651FC0367300E5E4C1 /* art.scnassets */; };
+		902B9F681FC0383D00E5E4C1 /* CylinderLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902B9F671FC0383D00E5E4C1 /* CylinderLine.swift */; };
 		A74AF0931F6CA2480000CD5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74AF0921F6CA2480000CD5F /* AppDelegate.swift */; };
 		A74AF0951F6CA2490000CD5F /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = A74AF0941F6CA2490000CD5F /* art.scnassets */; };
 		A74AF0971F6CA2490000CD5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74AF0961F6CA2490000CD5F /* ViewController.swift */; };
@@ -113,6 +115,8 @@
 		902B9F5D1FBF7A9900E5E4C1 /* routeSchipolString.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = routeSchipolString.txt; sourceTree = "<group>"; };
 		902B9F5F1FBF7D1B00E5E4C1 /* WayFindingSchipholService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WayFindingSchipholService.swift; sourceTree = "<group>"; };
 		902B9F631FBF83EF00E5E4C1 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		902B9F651FC0367300E5E4C1 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		902B9F671FC0383D00E5E4C1 /* CylinderLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CylinderLine.swift; sourceTree = "<group>"; };
 		9B958384835A9EDD217B56BD /* Pods_ARKitNavigationDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARKitNavigationDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A74AF08F1F6CA2480000CD5F /* ARKitNavigationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKitNavigationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A74AF0921F6CA2480000CD5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -266,6 +270,7 @@
 		A74AF0911F6CA2480000CD5F /* ARKitNavigationDemo */ = {
 			isa = PBXGroup;
 			children = (
+				902B9F651FC0367300E5E4C1 /* art.scnassets */,
 				A74AF0A01F6CA2490000CD5F /* Info.plist */,
 				A74AF0921F6CA2480000CD5F /* AppDelegate.swift */,
 				A74AF0F41F6CAA390000CD5F /* Assets */,
@@ -341,6 +346,7 @@
 				A79518C91F7A1EE60030E21A /* LocationTranslation.swift */,
 				A79518CB1F7A1F130030E21A /* LocationData.swift */,
 				354E360D1FBF83CB00C8F681 /* LineSegment.swift */,
+				902B9F671FC0383D00E5E4C1 /* CylinderLine.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -547,6 +553,7 @@
 				902B9F3D1FBF65FE00E5E4C1 /* routeSchiphol.json in Resources */,
 				902B9F5E1FBF7A9900E5E4C1 /* routeSchipolString.txt in Resources */,
 				A74AF09C1F6CA2490000CD5F /* Assets.xcassets in Resources */,
+				902B9F661FC0367300E5E4C1 /* art.scnassets in Resources */,
 				902B9F641FBF83EF00E5E4C1 /* Main.storyboard in Resources */,
 				A74AF09A1F6CA2490000CD5F /* Navigation.storyboard in Resources */,
 			);
@@ -783,6 +790,7 @@
 				902B9F521FBF6F9900E5E4C1 /* Envelope.swift in Sources */,
 				A79518C81F7A1E950030E21A /* CoordinatorDelegate.swift in Sources */,
 				A79518D41F7A1FF90030E21A /* Constants.swift in Sources */,
+				902B9F681FC0383D00E5E4C1 /* CylinderLine.swift in Sources */,
 				902B9F3B1FBF45D100E5E4C1 /* SchipholWhenToBeService.swift in Sources */,
 				A74AF0F81F6CAAB00000CD5F /* StartControllerCoordinator.swift in Sources */,
 				902B9F5C1FBF6F9900E5E4C1 /* Summary.swift in Sources */,

@@ -180,6 +180,7 @@ extension ViewController: MessagePresenting {
         let stepAnchor = ARAnchor(transform: locationTransform)
         let sphere = BaseNode(title: step.instructions, location: stepLocation)
         anchors.append(stepAnchor)
+        setupLight(node: sphere)
         sphere.addNode(with: 0.3, and: .green, and: step.instructions)
         sphere.location = stepLocation
         sphere.anchor = stepAnchor
@@ -187,6 +188,23 @@ extension ViewController: MessagePresenting {
         sceneView.scene.rootNode.addChildNode(sphere)
         nodes.append(sphere)
     }
+
+    func setupLight(node: SCNNode) {
+        let spotLight = SCNLight()
+        spotLight.type = .spot
+        spotLight.spotInnerAngle = 60
+        spotLight.spotOuterAngle = 60
+        spotLight.intensity = 1
+        let mat = SCNMaterial()
+        mat.lightingModel = .physicallyBased
+        mat.diffuse.contents = UIImage.init(named: "white.jpg")
+        node.geometry?.firstMaterial?.diffuse.contents = UIImage.init(named: "white.jpg")
+
+
+//        node.parent?.light = spotLight
+    }
+    
+
     
     // For intermediary locations - CLLocation - add sphere
     
@@ -196,13 +214,19 @@ extension ViewController: MessagePresenting {
         let sphere = BaseNode(title: "Title", location: location)
         sphere.addSphere(with: 0.25, and: .blue)
         anchors.append(stepAnchor)
+        setupLight(node: sphere)
         sphere.location = location
         sceneView.session.add(anchor: stepAnchor)
         sceneView.scene.rootNode.addChildNode(sphere)
         sphere.anchor = stepAnchor
+        
+//        CylinderLine.init(parent: sphere, v1: SCNVector3.init(location.coordinate.latitude, location.coordinate.longitude, 0), v2: <#T##SCNVector3#>, radius: 10, radSegmentCount: 1, color: .white)
+
         nodes.append(sphere)
     }
 }
+    
+    
 
 extension ViewController: ARSCNViewDelegate {
     

@@ -152,6 +152,10 @@
                                                 <state key="normal" title="Start AR">
                                                     <color key="titleColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="startAR:" destination="TaD-a2-Amn" eventType="touchUpInside" id="Mca-lC-Qs5"/>
+                                                    <segue destination="OUY-h2-2I5" kind="showDetail" id="SFF-kt-yFH"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -304,6 +308,14 @@
                 </view>
             </objects>
             <point key="canvasLocation" x="376.80000000000001" y="130.88455772113943"/>
+        </scene>
+        <!--Navigation-->
+        <scene sceneID="39D-vR-cyu">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Navigation" id="OUY-h2-2I5" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BfY-7t-mo8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1073" y="130"/>
         </scene>
         <!--Main Navigation Controller-->
         <scene sceneID="OVa-0M-Ylv">

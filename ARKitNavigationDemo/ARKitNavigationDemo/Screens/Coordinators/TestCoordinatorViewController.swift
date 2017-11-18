@@ -39,15 +39,21 @@ class TestCoordinatorViewController: UIViewController {
         visualEffectView.effect = nil
         addItemView.layer.cornerRadius = 5
         self.animeteBlurIn()
+        self.visualEffectView.isHidden = false
         
+    }
+    @IBAction func startAR(_ sender: Any) {
+        print("start AR")
     }
     
     @IBAction func didPressFlight(_ sender: Any) {
         animateBlurout()
+        self.visualEffectView.isHidden = true
     }
     
     @IBAction func didPressChangeFlight(_ sender: Any) {
         animeteBlurIn()
+        self.visualEffectView.isHidden = false
     }
     
     func animeteBlurIn() {

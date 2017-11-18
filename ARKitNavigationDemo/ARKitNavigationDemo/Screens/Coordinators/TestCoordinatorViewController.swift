@@ -50,14 +50,23 @@ class TestCoordinatorViewController: UIViewController {
     @IBAction func startAR(_ sender: Any) {
         print("start AR")
     }
-    
     @IBAction func didPressFlight(_ sender: Any) {
         if let isFlightNumber = flightNumberoutlet.text {
-            SchipholWhenToBeService.checkWhentoBeAtSChiphol(flightNumber: isFlightNumber, onCompletion: { (success, data) in
+            SchipholWhenToBeService.checkWhentoBeAtSChiphol(flightNumber: isFlightNumber, onCompletion: { (success, rectTime) in
                 if success {
-                    print(data)
+                    if let time = rectTime {
+
+                        let formatter = DateFormatter()
+                        formatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss"
+                        
+                        if let date = formatter.date(from: time) {
+                            
+                            self.timeLabel.text = self.printTimestamp(date: date)
+                        }
+                    }
+                    
                 } else {
-                    print("fuck something went wrong")
+                    print("f*k something went wrong")
                 }
             })
             
@@ -66,6 +75,13 @@ class TestCoordinatorViewController: UIViewController {
             
         }
     }
+    
+    func printTimestamp(date: Date) -> String {
+        let formatter = DateFormatter()
+        formatter.dateFormat = "HH:mm"
+        return formatter.string(from: date)
+    }
+    
     
     @IBAction func didPressChangeFlight(_ sender: Any) {
         animeteBlurIn()

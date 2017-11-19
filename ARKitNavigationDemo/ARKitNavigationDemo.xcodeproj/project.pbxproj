@@ -15,7 +15,7 @@
 		902B9F601FBF7D1B00E5E4C1 /* WayFindingSchipholService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902B9F5F1FBF7D1B00E5E4C1 /* WayFindingSchipholService.swift */; };
 		902B9F621FBF839400E5E4C1 /* TestCoordinatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902B9F611FBF839400E5E4C1 /* TestCoordinatorViewController.swift */; };
 		902B9F641FBF83EF00E5E4C1 /* MainOLD.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 902B9F631FBF83EF00E5E4C1 /* MainOLD.storyboard */; };
-		902B9F6A1FC05C3700E5E4C1 /* MainFlight.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 902B9F691FC05C3700E5E4C1 /* MainFlight.storyboard */; };
+		902B9F6A1FC05C3700E5E4C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 902B9F691FC05C3700E5E4C1 /* Main.storyboard */; };
 		902B9F6C1FC1D8D200E5E4C1 /* archelogicalsites.json in Resources */ = {isa = PBXBuildFile; fileRef = 902B9F6B1FC1D8D100E5E4C1 /* archelogicalsites.json */; };
 		902B9F701FC1D8E200E5E4C1 /* routeSchipolString.txt in Resources */ = {isa = PBXBuildFile; fileRef = 902B9F6D1FC1D8E100E5E4C1 /* routeSchipolString.txt */; };
 		902B9F711FC1D8E200E5E4C1 /* routeANWB.json in Resources */ = {isa = PBXBuildFile; fileRef = 902B9F6E1FC1D8E100E5E4C1 /* routeANWB.json */; };
@@ -97,7 +97,7 @@
 		902B9F5F1FBF7D1B00E5E4C1 /* WayFindingSchipholService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WayFindingSchipholService.swift; sourceTree = "<group>"; };
 		902B9F611FBF839400E5E4C1 /* TestCoordinatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCoordinatorViewController.swift; sourceTree = "<group>"; };
 		902B9F631FBF83EF00E5E4C1 /* MainOLD.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainOLD.storyboard; sourceTree = "<group>"; };
-		902B9F691FC05C3700E5E4C1 /* MainFlight.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainFlight.storyboard; sourceTree = "<group>"; };
+		902B9F691FC05C3700E5E4C1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		902B9F6B1FC1D8D100E5E4C1 /* archelogicalsites.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = archelogicalsites.json; sourceTree = "<group>"; };
 		902B9F6D1FC1D8E100E5E4C1 /* routeSchipolString.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = routeSchipolString.txt; sourceTree = "<group>"; };
 		902B9F6E1FC1D8E100E5E4C1 /* routeANWB.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = routeANWB.json; sourceTree = "<group>"; };
@@ -349,7 +349,7 @@
 				A74AF0981F6CA2490000CD5F /* Navigation.storyboard */,
 				A74AF0EF1F6CAA020000CD5F /* Start.storyboard */,
 				902B9F631FBF83EF00E5E4C1 /* MainOLD.storyboard */,
-				902B9F691FC05C3700E5E4C1 /* MainFlight.storyboard */,
+				902B9F691FC05C3700E5E4C1 /* Main.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -518,7 +518,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				902B9F701FC1D8E200E5E4C1 /* routeSchipolString.txt in Resources */,
-				902B9F6A1FC05C3700E5E4C1 /* MainFlight.storyboard in Resources */,
+				902B9F6A1FC05C3700E5E4C1 /* Main.storyboard in Resources */,
 				A74AF0951F6CA2490000CD5F /* art.scnassets in Resources */,
 				A74AF09F1F6CA2490000CD5F /* LaunchScreen.storyboard in Resources */,
 				A74AF0F01F6CAA020000CD5F /* Start.storyboard in Resources */,

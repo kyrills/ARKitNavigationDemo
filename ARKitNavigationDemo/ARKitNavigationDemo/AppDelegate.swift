@@ -15,6 +15,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var appCoordinator: MainCoordinator!
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        window = UIWindow(frame: UIScreen.main.bounds)
+        if let window = window {
+            appCoordinator = MainCoordinator(window: window)
+        }
         return true
     }
 }

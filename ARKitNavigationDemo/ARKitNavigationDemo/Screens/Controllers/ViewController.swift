@@ -76,6 +76,19 @@ extension ViewController: Controller {
         })
     }
     
+    private func setupNavigationWithLocationData() {
+        if locationData != nil {
+            steps.append(contentsOf: locationData.steps)
+            currentLegs.append(contentsOf: locationData.legs)
+            let coordinates = currentLegs.flatMap { $0 }
+            locations = coordinates.map { CLLocation(latitude: $0.latitude, longitude: $0.longitude) }
+            annotations.append(contentsOf: annotations)
+            destinationLocation = locationData.destinationLocation.coordinate
+        }
+        done = true
+    }
+    
+    
     private func setupScene() {
         sceneView.delegate = self
         sceneView.showsStatistics = true
@@ -164,7 +177,7 @@ extension ViewController: MessagePresenting {
     
     private func addSphere(for step: MKRouteStep) {
         let stepLocation = step.getLocation()
-        let locationTransform = MatrixHelper.transformMatrix(for: matrix_identity_float4x4, originLocation: CLLocation.init(latitude: 52.3101057,longitude: 4.7624165), location: stepLocation)
+        let locationTransform = MatrixHelper.transformMatrix(for: matrix_identity_float4x4, originLocation: startingLocation, location: stepLocation)
         let stepAnchor = ARAnchor(transform: locationTransform)
         let sphere = BaseNode(title: step.instructions, location: stepLocation)
         anchors.append(stepAnchor)

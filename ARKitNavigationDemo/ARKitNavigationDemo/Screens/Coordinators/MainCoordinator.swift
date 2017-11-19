@@ -20,7 +20,7 @@ final class MainCoordinator: AppCoordinator {
     
     init(window: UIWindow) {
         self.window = window
-        transitionCoordinator(type: .test)
+        transitionCoordinator(type: .start)
     }
     
     func addChildCoordinator(_ childCoordinator: ControllerCoordinator) {

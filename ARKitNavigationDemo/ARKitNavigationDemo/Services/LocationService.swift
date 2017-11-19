@@ -84,7 +84,7 @@ final class LocationService: NSObject, CLLocationManagerDelegate {
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         for location in locations {
-            delegate?.trackingLocation(for: CLLocation.init(latitude: 52.309696688000031, longitude: 4.7623604770000725))
+            delegate?.trackingLocation(for: location)// CLLocation.init(latitude: 52.309696688000031, longitude: 4.7623604770000725))
         }
         currentLocation = manager.location
     }

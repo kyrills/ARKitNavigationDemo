@@ -17,7 +17,6 @@
 		902B9F641FBF83EF00E5E4C1 /* MainOLD.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 902B9F631FBF83EF00E5E4C1 /* MainOLD.storyboard */; };
 		902B9F6A1FC05C3700E5E4C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 902B9F691FC05C3700E5E4C1 /* Main.storyboard */; };
 		902B9F6C1FC1D8D200E5E4C1 /* archelogicalsites.json in Resources */ = {isa = PBXBuildFile; fileRef = 902B9F6B1FC1D8D100E5E4C1 /* archelogicalsites.json */; };
-		902B9F701FC1D8E200E5E4C1 /* routeSchipolString.txt in Resources */ = {isa = PBXBuildFile; fileRef = 902B9F6D1FC1D8E100E5E4C1 /* routeSchipolString.txt */; };
 		902B9F711FC1D8E200E5E4C1 /* routeANWB.json in Resources */ = {isa = PBXBuildFile; fileRef = 902B9F6E1FC1D8E100E5E4C1 /* routeANWB.json */; };
 		902B9F721FC1D8E200E5E4C1 /* routeSchiphol.json in Resources */ = {isa = PBXBuildFile; fileRef = 902B9F6F1FC1D8E100E5E4C1 /* routeSchiphol.json */; };
 		902B9F741FC1D8F400E5E4C1 /* AcheologicalSitesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902B9F731FC1D8F400E5E4C1 /* AcheologicalSitesService.swift */; };
@@ -99,7 +98,6 @@
 		902B9F631FBF83EF00E5E4C1 /* MainOLD.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainOLD.storyboard; sourceTree = "<group>"; };
 		902B9F691FC05C3700E5E4C1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		902B9F6B1FC1D8D100E5E4C1 /* archelogicalsites.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = archelogicalsites.json; sourceTree = "<group>"; };
-		902B9F6D1FC1D8E100E5E4C1 /* routeSchipolString.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = routeSchipolString.txt; sourceTree = "<group>"; };
 		902B9F6E1FC1D8E100E5E4C1 /* routeANWB.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = routeANWB.json; sourceTree = "<group>"; };
 		902B9F6F1FC1D8E100E5E4C1 /* routeSchiphol.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = routeSchiphol.json; sourceTree = "<group>"; };
 		902B9F731FC1D8F400E5E4C1 /* AcheologicalSitesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcheologicalSitesService.swift; sourceTree = "<group>"; };
@@ -329,7 +327,6 @@
 				902B9F6B1FC1D8D100E5E4C1 /* archelogicalsites.json */,
 				902B9F6E1FC1D8E100E5E4C1 /* routeANWB.json */,
 				902B9F6F1FC1D8E100E5E4C1 /* routeSchiphol.json */,
-				902B9F6D1FC1D8E100E5E4C1 /* routeSchipolString.txt */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -517,7 +514,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				902B9F701FC1D8E200E5E4C1 /* routeSchipolString.txt in Resources */,
 				902B9F6A1FC05C3700E5E4C1 /* Main.storyboard in Resources */,
 				A74AF0951F6CA2490000CD5F /* art.scnassets in Resources */,
 				A74AF09F1F6CA2490000CD5F /* LaunchScreen.storyboard in Resources */,

@@ -205,7 +205,7 @@ extension StartViewController: LocationServiceDelegate, MessagePresenting, Mapab
     
     // Once location is tracking - zoom in and center map
     func trackingLocation(for currentLocation: CLLocation) {
-        startingLocation = CLLocation.init(latitude: schipholCoords.latitude, longitude: schipholCoords.longitude) //currentLocation
+        startingLocation = currentLocation //currentLocation
         centerMapInInitialCoordinates()
     }
     
